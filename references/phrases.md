@@ -85,3 +85,14 @@ Announcing difficulty or significance rather than demonstrating it:
 - "This is genuinely hard"
 - "This is what leadership actually looks like"
 - "This is what X actually looks like"
+
+## Email Pleasantries
+- "I hope this email finds you well"
+- "I hope you're doing well"
+- "I hope all is well"
+
+## Letter Announcements
+- "I am writing this letter..."
+- "I am writing to inform you..."
+- "Writing this to inform you..."
+- "I wanted to reach out..."

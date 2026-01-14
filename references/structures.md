@@ -69,3 +69,48 @@ These announce insight rather than deliver it.
 |---------|---------|
 | Absolute words (always, never, everyone, everybody, nobody) | False authority |
 | AI-overused intensifiers (deeply, truly, fundamentally, inherently, simply, literally, inevitably) | Empty emphasis |
+
+## Transformation Chains
+Words that link end-to-end, creating false momentum.
+
+| Pattern | Problem |
+|---------|---------|
+| "X became Y. Y became Z." | Artificial momentum |
+| "Friction becomes flow. Flow becomes speed." | Chain linking |
+| "Word slop became legibility. Legibility became clarity." | False progression |
+| "Bottlenecks become opportunities. Opportunities become growth." | Manufactured causation |
+
+**Instead:** State the outcome directly. "The process is now faster."
+
+## Before/After Framing
+False historical contrast to manufacture significance.
+
+| Pattern | Problem |
+|---------|---------|
+| "Before X, it was Y." | Manufactured history |
+| "Before AI, it was manual." | False transformation arc |
+| "Before this framework, teams struggled." | Exaggerated contrast |
+
+**Instead:** Describe the current state. Skip the manufactured history.
+
+## Corrective Reveals
+Dramatic "truth telling" structure that positions the writer as enlightened.
+
+| Pattern | Problem |
+|---------|---------|
+| "You've been told X. Here's the truth: Y." | Theatrical setup |
+| "You've been told a lie. Here is the actual truth." | False authority |
+| "Everyone says X. They're wrong." | Contrarian posturing |
+
+**Instead:** State Y directly without the theatrical setup.
+
+## Forced Cohesion
+Artificially linking separate ideas to sound profound.
+
+| Pattern | Problem |
+|---------|---------|
+| "You can't have X without Y." | False interdependence |
+| "You can't have one without the other." | Manufactured connection |
+| "These two things are linked." | Vague binding |
+
+**Instead:** If they're truly linked, the connection will be clear from context.
