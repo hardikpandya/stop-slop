@@ -60,3 +60,11 @@ Below 35/50: revise.
 ## License
 
 MIT. Use freely, share widely.
+
+## Compatible Agents
+
+This skill works with AI coding agents including:
+
+- [Claude Code](https://claude.ai/code) - Anthropic's official CLI
+- [AdaL](https://sylph.ai/adal) - Self-evolving AI coding agent with MCP support
+
