@@ -1,14 +1,45 @@
 ---
 name: stop-slop
 description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
+version: 0.1.0
+creator: Hardik Pandya (https://hvpandya.com)
+license: MIT
 metadata:
   trigger: Writing prose, editing drafts, reviewing content for AI patterns
   author: Hardik Pandya (https://hvpandya.com)
+  effort: medium
 ---
 
 # Stop Slop
 
 Eliminate predictable AI writing patterns from prose.
+
+## When to Use
+
+- Drafting any prose destined for a human reader (essays, blog posts, docs, release notes).
+- Editing a draft that feels AI-generated — hedged, metronomic, or padded with throat-clearing.
+- Reviewing someone else's copy for the tells listed in `references/phrases.md` and `references/structures.md`.
+
+Skip for: code, code comments, structured data, or transcripts where voice is preserved verbatim.
+
+## Prerequisites
+
+None. This skill edits prose only — it runs no shell commands, modifies no files on disk, and needs no tools beyond a text editor. The verbs "Cut", "Kill", "Remove", and "Delete" in the rules below refer to words and sentences in the draft, not to filesystem operations.
+
+### Safety
+
+This skill only edits prose in a text buffer. It issues no shell commands, touches no filesystems, and needs no permissions.
+
+- **Back up the draft before a pass.** Copy the original text into version control (or a "v1" file) so edits are reversible. The rules below ask you to cut and rewrite aggressively — a backup makes that safe.
+- **Confirm before destructive rewrites.** When a rule would remove a full paragraph or restructure a section, show the before/after to the author and get explicit confirmation (a dry-run) before applying it to the final draft.
+- **On error / recovery.** If an edit changes meaning or loses the author's voice, revert that edit and keep the original line. Never rewrite a direct quote. When in doubt, prefer the author's phrasing over a more "efficient" one — the goal is to sound human, not to minimize word count.
+
+## Instructions
+
+1. Apply the eight Core Rules below to every paragraph, in order.
+2. Run the Quick Checks on the full draft.
+3. Score the result with the Scoring table; if it totals below 35/50, revise and re-score.
+4. Stop when the draft reads like a person wrote it — further edits past that point risk over-polishing.
 
 ## Core Rules
 
@@ -59,9 +90,38 @@ Rate 1-10 on each dimension:
 
 Below 35/50: revise.
 
-## Examples
+## Example
 
-See [references/examples.md](references/examples.md) for before/after transformations.
+One before/after to set expectations. See [references/examples.md](references/examples.md) for more.
+
+**Before:**
+
+```
+Here's the thing: building products is hard. Not because the
+technology is complex. Because people are complex. Let that sink in.
+```
+
+**After:**
+
+```
+Building products is hard. Technology is manageable. People aren't.
+```
+
+Removed the opener, the binary contrast, and the emphasis crutch. Two direct statements, same meaning.
+
+### Expected output
+
+- Every adverb removed unless load-bearing.
+- No em dashes; no passive constructions; no inanimate subjects performing human verbs.
+- No "not X, it's Y" contrasts, rhetorical questions, or meta-joiners.
+- Scoring table totals ≥ 35/50 across the five dimensions.
+
+## Edge cases
+
+- **Direct quotes** — leave them alone; quoting a hedging speaker verbatim is not slop.
+- **Technical prose where precision > rhythm** — API reference sentences can be metronomic; don't force variation that loses accuracy.
+- **Lists and tables** — structural repetition is the point; don't "vary rhythm" inside a parameter list.
+- **First-person personal voice** — `you`/`I` is fine; don't strip writer presence in the name of directness.
 
 ## License
 
