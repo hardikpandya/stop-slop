@@ -14,8 +14,9 @@ These create false drama. State the point directly.
 | "Not X. But Y." | Mechanical contrast |
 | "It's not this. It's that." | Same formula, different words |
 | "stops being X and starts being Y" | False transformation arc |
+| "not X but Y" (inline) | Same pivot compressed into one clause |
 
-**Instead:** State Y directly. "The problem is Y." "Y matters here."
+**Instead:** State Y directly. "The problem is Y." "Y matters here." The inline form ("demonstrates not X but Y", "reveals not A but B") is the most common variant because it passes as literate prose. The reader knows Y is coming the moment they hit "not." State Y, or if the contrast carries real argumentative weight, give each side its own sentence so the reader weighs them independently.
 
 ## Dramatic Fragmentation
 
