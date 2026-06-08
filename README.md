@@ -23,6 +23,14 @@ stop-slop/
 
 ## Quick start
 
+**One command ([skills.sh](https://skills.sh)):**
+
+```bash
+npx skills add hardikpandya/stop-slop
+```
+
+This installs the skill and its reference files for Claude Code, Cursor, Copilot, and other supported agents.
+
 **Claude Code:** Add this folder as a skill.
 
 **Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
