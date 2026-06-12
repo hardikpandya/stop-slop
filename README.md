@@ -1,62 +1,65 @@
 # Stop Slop
 
-A skill for removing AI tells from prose.
+Skill untuk menghapus jejak AI dari tulisan bahasa Indonesia.
 
-<img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
+## Apa Ini
 
-## What this is
+Tulisan AI punya pola: frasa yang gampang ditebak, struktur seragam, irama yang itu-itu saja. Skill ini mengajari Claude (atau LLM mana pun) menangkap dan membuang pola itu dari teks bahasa Indonesia.
 
-AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.
-
-## Skill Structure
+## Struktur Skill
 
 ```
-stop-slop/
-├── SKILL.md              # Core instructions
+stop-slop-id/
+├── SKILL.md              # Instruksi inti
 ├── references/
-│   ├── phrases.md        # Phrases to remove
-│   ├── structures.md     # Structural patterns to avoid
-│   └── examples.md       # Before/after transformations
+│   ├── phrases.md        # Frasa yang harus dibuang
+│   ├── structures.md     # Pola struktur yang dihindari
+│   ├── examples.md       # Transformasi sebelum/sesudah
+│   └── tata-bahasa.md    # Kaidah EYD/PUEBI yang sering dilanggar
 ├── README.md
 └── LICENSE
 ```
 
-## Quick start
+## Mulai Cepat
 
-**Claude Code:** Add this folder as a skill.
+**Claude Code:** Tambahkan folder ini sebagai skill.
 
-**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
+**Claude Projects:** Unggah `SKILL.md` dan berkas referensi ke pengetahuan proyek.
 
-**Custom instructions:** Copy core rules from `SKILL.md`.
+**Instruksi khusus:** Salin aturan inti dari `SKILL.md`.
 
-**API calls:** Include `SKILL.md` in your system prompt. Reference files load on demand.
+**Panggilan API:** Sertakan `SKILL.md` di system prompt. Berkas referensi dimuat saat dibutuhkan.
 
-## What it catches
+## Apa yang Ditangkap
 
-**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `references/phrases.md`.
+**Frasa terlarang**: Pembuka basa-basi, penegas kosong, jargon korporat, diksi akademik yang diobral, bahasa promosi, bocoran chatbot, semua penyangat, deklaratif kabur, meta-komentar. Lihat `references/phrases.md`.
 
-**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency, narrator-from-a-distance voice, passive voice. See `references/structures.md`.
+**Klise struktural**: Kontras biner, daftar negatif, pola tiga, pembesaran makna, analisis tempelan, fragmentasi dramatis, pancingan retoris, tagline klise, penutup berpetuah, agen palsu, calque, kata penghubung yang dipaksakan, pola format bertele-tele, jejak salin-tempel, kalimat pasif. Lihat `references/structures.md`.
 
-**Sentence-level rules** - No Wh- sentence starters, no em dashes, no staccato fragmentation, no lazy extremes, active voice required.
+**Aturan tingkat kalimat**: Tanpa pembuka "Apa yang membuat...", tanpa em dash, tanpa fragmentasi tersendat, tanpa ekstrem malas, wajib kalimat aktif.
 
-## Scoring
+**Kaidah baku**: Pelanggaran EYD yang khas mesin, seperti "namun" di tengah kalimat, "tapi" alih-alih "tetapi", "di mana"/"yang mana" sebagai penghubung, "Jika ..., maka ..." dalam prosa, serta "yang" dan konjungsi di awal kalimat. Lihat `references/tata-bahasa.md`.
 
-Rate 1-10 on each dimension:
+## Penilaian
 
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+Beri nilai 1-10 untuk tiap dimensi:
 
-Below 35/50: revise.
+| Dimensi | Pertanyaan |
+|---------|-----------|
+| Kelugasan | Menyatakan langsung atau cuma mengumumkan? |
+| Irama | Bervariasi atau seperti metronom? |
+| Kepercayaan | Menghargai kecerdasan pembaca? |
+| Keaslian | Terdengar seperti tulisan manusia? |
+| Kepadatan | Ada yang masih bisa dipangkas? |
 
-## Author
+Di bawah 35/50: revisi.
 
-[Hardik Pandya](https://hvpandya.com)
+## Penulis
 
-## License
+[M Lintang MZ](https://github.com/mlintangmz2765)
 
-MIT. Use freely, share widely.
+Adaptasi bahasa Indonesia dari [stop-slop](https://github.com/hardikpandya/stop-slop) oleh Hardik Pandya.
+
+## Lisensi
+
+MIT. Pakai bebas, sebarkan luas.

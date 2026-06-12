@@ -1,68 +1,107 @@
 ---
-name: stop-slop
-description: Remove AI writing patterns from prose. Use when drafting, editing, or reviewing text to eliminate predictable AI tells.
+name: stop-slop-id
+description: Menghapus pola tulisan khas AI dari teks bahasa Indonesia. Gunakan saat menulis, menyunting, atau meninjau teks untuk menghilangkan jejak AI yang gampang ditebak.
 metadata:
-  trigger: Writing prose, editing drafts, reviewing content for AI patterns
-  author: Hardik Pandya (https://hvpandya.com)
+  trigger: Menulis prosa, menyunting draf, meninjau konten untuk pola AI
+  author: M Lintang MZ
+  adaptation: Adaptasi bahasa Indonesia dari stop-slop (github.com/hardikpandya/stop-slop)
 ---
 
 # Stop Slop
 
-Eliminate predictable AI writing patterns from prose.
+Hilangkan pola tulisan khas AI dari teks bahasa Indonesia.
 
-## Core Rules
+## Aturan Inti
 
-1. **Cut filler phrases.** Remove throat-clearing openers, emphasis crutches, and all adverbs. See [references/phrases.md](references/phrases.md).
+1. **Buang frasa pengisi.** Hapus pembuka basa-basi, penegas kosong, dan penyangat. Lihat [references/phrases.md](references/phrases.md).
 
-2. **Break formulaic structures.** Avoid binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency. See [references/structures.md](references/structures.md).
+2. **Bongkar struktur formulaik.** Hindari kontras biner, daftar negatif, fragmentasi dramatis, pancingan retoris, dan agen palsu. Lihat [references/structures.md](references/structures.md).
 
-3. **Use active voice.** Every sentence needs a human subject doing something. No passive constructions. No inanimate objects performing human actions ("the complaint becomes a fix").
+3. **Pakai kalimat aktif.** Tiap kalimat butuh subjek manusia yang berbuat. Jangan pakai bentuk pasif. Jangan biarkan benda mati melakukan perbuatan manusia ("keluhan berubah jadi solusi").
 
-4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work.
+4. **Spesifik.** Hindari deklaratif kabur ("Alasannya bersifat struktural"). Sebut hal yang dimaksud. Hindari ekstrem malas ("setiap", "selalu", "tidak pernah") yang bekerja samar. Hindari diksi akademik yang diobral ("signifikan", "implikasi", "krusial") saat kata sederhana lebih pas.
 
-5. **Put the reader in the room.** No narrator-from-a-distance voice. "You" beats "People." Specifics beat abstractions.
+5. **Tempatkan pembaca di ruangan.** Jangan pakai suara narator dari kejauhan. "Anda" lebih baik daripada "orang-orang". Hal konkret mengalahkan abstraksi.
 
-6. **Vary rhythm.** Mix sentence lengths. Two items beat three. End paragraphs differently. No em dashes.
+6. **Variasikan irama.** Selang-seling panjang kalimat. Dua butir lebih baik daripada tiga. Akhiri paragraf dengan cara berbeda. Tanpa em dash.
 
-7. **Trust readers.** State facts directly. Skip softening, justification, hand-holding.
+7. **Percayai pembaca.** Sampaikan fakta langsung. Lewati pelembut, pembenaran, dan tuntunan berlebihan.
 
-8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
+8. **Buang kalimat pajangan.** Kalau terdengar seperti kutipan poster, tulis ulang.
 
-## Quick Checks
+9. **Hindari calque.** Jangan terjemahkan idiom Inggris kata demi kata ("Di penghujung hari", "Penting untuk dicatat bahwa", "mengeksplorasi lanskap"). Pakai ungkapan Indonesia yang lugas.
 
-Before delivering prose:
+10. **Tulis prosa yang mengalir.** Jangan ubah semua jadi bullet dan cetak tebal. Jangan ulang gagasan yang sama dengan kata berbeda.
 
-- Any adverbs? Kill them.
-- Any passive voice? Find the actor, make them the subject.
-- Inanimate thing doing a human verb ("the decision emerges")? Name the person.
-- Sentence starts with a Wh- word? Restructure it.
-- Any "here's what/this/that" throat-clearing? Cut to the point.
-- Any "not X, it's Y" contrasts? State Y directly.
-- Three consecutive sentences match length? Break one.
-- Paragraph ends with punchy one-liner? Vary it.
-- Em-dash anywhere? Remove it.
-- Vague declarative ("The implications are significant")? Name the specific implication.
-- Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
-- Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
+11. **Patuhi kaidah baku.** Perbaiki pelanggaran EYD yang khas mesin: "namun" di tengah kalimat, "tapi" (jadikan "tetapi"), "di mana"/"yang mana" sebagai penghubung, "Jika ..., maka ..." dalam prosa, dan konjungsi di awal kalimat. Lihat [references/tata-bahasa.md](references/tata-bahasa.md).
 
-## Scoring
+12. **Jangan membesar-besarkan.** Buang bahasa brosur ("memesona", "kaya akan", "menyuguhkan") dan klaim peran besar atau warisan tanpa bukti ("tonggak penting", "meninggalkan jejak mendalam"). Sebut fakta spesifik.
 
-Rate 1-10 on each dimension:
+13. **Bersihkan jejak salin-tempel.** Hapus bocoran chatbot ("Tentu!", "Semoga membantu", "Berikut adalah"), sangkalan batas pengetahuan, tanda kutip lengkung, sisa Markdown, dan teks pengganti yang lupa diisi.
 
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
+## Pemeriksaan Cepat
 
-Below 35/50: revise.
+Sebelum menyerahkan tulisan:
 
-## Examples
+- Ada penyangat ("sangat", "benar-benar", "sungguh")? Bunuh.
+- Ada kalimat pasif? Temukan pelakunya, jadikan subjek.
+- Benda mati melakukan kerja manusia ("keputusan itu muncul")? Sebut orangnya.
+- Kalimat dibuka dengan "Apa yang membuat..."? Susun ulang.
+- Ada basa-basi "begini/inilah"? Langsung ke poin.
+- Ada kontras "bukan X, melainkan Y"? Sampaikan Y langsung.
+- Tiga kalimat beruntun sama panjang? Pecah salah satunya.
+- Paragraf ditutup kalimat pamungkas? Variasikan.
+- Ada em dash? Hapus.
+- Deklaratif kabur ("Implikasinya besar")? Sebut implikasi yang spesifik.
+- Narator dari kejauhan ("Tak seorang pun merancang ini")? Tempatkan pembaca di adegan.
+- Meta-komentar ("Selebihnya akan dibahas di bawah")? Hapus. Biarkan tulisan bergerak.
+- Ada "signifikan/implikasi/krusial"? Ganti dengan kata yang lebih lugas.
+- Ada calque ("Di penghujung hari", "Penting untuk dicatat bahwa")? Pakai ungkapan Indonesia.
+- Tiap kalimat dibuka penghubung ("Selain itu", "Hal ini menunjukkan")? Buang sebagian.
+- Semua dipecah jadi bullet dan cetak tebal? Ubah jadi prosa.
+- Gagasan yang sama diulang dengan kata beda? Sampaikan sekali.
+- Ada "namun" di tengah kalimat? Ganti "tetapi"; "namun"/"akan tetapi" hanya untuk mengawali kalimat baru.
+- Ada "tapi" dalam ragam tulis? Jadikan "tetapi".
+- Ada "di mana"/"yang mana" sebagai penghubung? Ganti "tempat", "ketika", atau "yang".
+- Ada "Jika ..., maka ..." dalam prosa (bukan logika/kode)? Buang "maka", cukup koma.
+- Kalimat dibuka "Dan/Sehingga/Karena"? Gabungkan, atau pakai penghubung antarkalimat.
+- Judul ditulis Kapital Tiap Kata? Kapitalkan awalnya saja.
+- Tulisan ditutup petuah atau pelajaran hidup? Sudahi saat poin selesai.
+- Pola tiga ("senyap, hangat, abadi"), tagline "di mana X bertemu Y", atau emoji jadi bullet? Pangkas.
+- Bahasa brosur ("memesona", "permai", "menyuguhkan")? Ganti dengan fakta konkret.
+- Klaim "tonggak penting", "titik balik", "meninggalkan jejak mendalam"? Buang atau buktikan.
+- Kalimat ditutup klausa penilaian ("yang menyoroti...", "sehingga memperkuat...")? Pangkas.
+- Kata "adalah" diganti "berperan sebagai/menghadirkan"? Kembalikan ke "adalah/punya".
+- Bocoran chatbot ("Tentu!", "Semoga membantu") atau teks pengganti ("[Nama Anda]", "2025-XX-XX")? Hapus.
+- Tanda kutip lengkung atau sisa Markdown (**/##/```)? Rapikan.
 
-See [references/examples.md](references/examples.md) for before/after transformations.
+## Penilaian
 
-## License
+Beri nilai 1-10 untuk tiap dimensi:
+
+| Dimensi | Pertanyaan |
+|---------|-----------|
+| Kelugasan | Menyatakan langsung atau cuma mengumumkan? |
+| Irama | Bervariasi atau seperti metronom? |
+| Kepercayaan | Menghargai kecerdasan pembaca? |
+| Keaslian | Terdengar seperti tulisan manusia? |
+| Kepadatan | Ada yang masih bisa dipangkas? |
+
+Di bawah 35/50: revisi.
+
+## Ciri Tulisan Manusia
+
+Jangan terlalu agresif sampai tulisan jadi kaku. Hal-hal ini wajar dan boleh dipertahankan:
+
+- "adalah" dan "punya" yang sederhana.
+- Kata lugas: "memakai" (bukan "memanfaatkan"), "menulis" (bukan "menggubah"), "mencoba" (bukan "berupaya").
+- Pernyataan tegas bila memang benar: "pertama", "satu-satunya", "terbesar".
+- Ragu secukupnya: "mungkin", "cenderung", "kira-kira".
+
+## Contoh
+
+Lihat [references/examples.md](references/examples.md) untuk transformasi sebelum/sesudah.
+
+## Lisensi
 
 MIT

@@ -1,134 +1,259 @@
-# Structures to Avoid
+# Struktur yang Harus Dihindari
 
-## Binary Contrasts
+## Kontras Biner
 
-These create false drama. State the point directly.
+Pola ini menciptakan drama palsu. Sampaikan poinnya langsung.
 
-| Pattern | Problem |
-|---------|---------|
-| "Not because X. Because Y." / "Not because X, but because Y." | Telegraphed reversal |
-| "[X] isn't the problem. [Y] is." | Formulaic reframe |
-| "The answer isn't X. It's Y." | Predictable pivot |
-| "It feels like X. It's actually Y." | Setup/reveal cliche |
-| "The question isn't X. It's Y." | Rhetorical misdirection |
-| "Not X. But Y." / "not X, it's Y" / "isn't X, it's Y" | Mechanical contrast |
-| "It's not this. It's that." | Same formula, different words |
-| "stops being X and starts being Y" | False transformation arc |
-| "doesn't mean X, but actually Y" | Negation-then-assertion crutch |
-| "is about X but not Y" | False distinction |
-| "not just X but also Y" | Additive hedge |
+| Pola | Masalah |
+|------|---------|
+| "Bukan karena X. Tapi karena Y." | Pembalikan yang sudah ketebak |
+| "X bukan masalahnya. Y yang jadi masalah." | Bingkai ulang yang formulaik |
+| "Jawabannya bukan X. Tapi Y." | Belokan yang mudah ditebak |
+| "Sekilas tampak X. Padahal Y." | Pancingan lalu kejutan |
+| "Pertanyaannya bukan X, melainkan Y." | Pengalihan retoris |
+| "Bukan X. Tapi Y." / "bukan X, melainkan Y" | Kontras mekanis |
+| "Ini bukan soal ini. Tapi soal itu." | Rumus yang sama, kata yang berbeda |
+| "berhenti menjadi X dan mulai menjadi Y" | Kesan perubahan yang dibuat-buat |
+| "bukan berarti X, melainkan Y" | Pola menyangkal dulu, baru menegaskan |
+| "bukan sekadar X, melainkan Y" | Penanda mesin yang paling kentara |
+| "bukan hanya X, tapi juga Y" | Sama |
 
-**Instead:** State Y directly. "The problem is Y." "Y matters here." Drop the negation entirely.
+**Sebagai gantinya:** sampaikan Y langsung. "Masalahnya Y." "Y yang penting di sini." Buang negasinya.
 
-## Negative Listing
+## Daftar Negatif
 
-Listing what something is *not* before revealing what it *is*. A rhetorical striptease.
+Menyebut sederet hal yang *bukan* sebelum mengungkap apa yang *sebenarnya*. Menunda inti, lalu membukanya sepotong demi sepotong demi efek dramatis.
 
-| Pattern | Problem |
-|---------|---------|
-| "Not a X... Not a Y... A Z." | Dramatic buildup through negation |
-| "It wasn't X. It wasn't Y. It was Z." | Same structure, past tense |
+| Pola | Masalah |
+|------|---------|
+| "Bukan X... Bukan Y... Melainkan Z." | Drama yang ditumpuk lewat negasi |
+| "Ini bukan X. Bukan pula Y. Ini Z." | Struktur yang sama |
 
-**Instead:** State Z. The reader doesn't need the runway.
+**Sebagai gantinya:** sampaikan Z. Pembaca tidak butuh ancang-ancang.
 
-## Dramatic Fragmentation
+## Fragmentasi Dramatis
 
-Sentence fragments for emphasis read as manufactured profundity.
+Penggalan kalimat untuk penekanan terbaca sebagai kedalaman yang dibuat-buat.
 
-| Pattern | Problem |
-|---------|---------|
-| "[Noun]. That's it. That's the [thing]." | Performative simplicity |
-| "X. And Y. And Z." | Staccato drama |
-| "This unlocks something. [Word]." | Artificial revelation |
+| Pola | Masalah |
+|------|---------|
+| "[Kata benda]. Itu saja. Itulah [hal]nya." | Kesederhanaan yang dipentaskan |
+| "X. Lalu Y. Lalu Z." | Drama yang tersendat |
+| "Ini membuka sesuatu. [Satu kata]." | Penyingkapan yang dibuat-buat |
+| "Sesederhana itu." | Penegas kosong |
 
-**Instead:** Complete sentences. Trust content over presentation.
+**Sebagai gantinya:** kalimat utuh. Percayakan pada isi, bukan pada tampilan.
 
-## Rhetorical Setups
+## Pancingan Retoris
 
-These announce insight rather than deliver it.
+Mengumumkan wawasan alih-alih menyampaikannya.
 
-| Pattern | Problem |
-|---------|---------|
-| "What if [reframe]?" | Socratic posturing |
-| "Here's what I mean:" | Redundant preview |
-| "Think about it:" | Condescending prompt |
-| "And that's okay." | Unnecessary permission |
+| Pola | Masalah |
+|------|---------|
+| "Bagaimana jika [bingkai ulang]?" | Lagak Sokratik |
+| "Maksud saya begini:" | Pratinjau yang berlebihan |
+| "Coba pikirkan:" | Perintah yang merendahkan |
+| "Pernahkah Anda merasa...?" | Pembuka dramatis yang dipentaskan |
+| "Dan itu tidak masalah." | Izin yang tidak perlu |
 
-**Instead:** Make the point. Let readers draw conclusions.
+**Sebagai gantinya:** sampaikan poinnya. Biarkan pembaca menarik simpulan sendiri.
 
-## Formulaic Constructions
+## Konstruksi Formulaik
 
-| Pattern | Problem |
-|---------|---------|
-| "By the time X, I was Y." | Narrative template |
-| "X that isn't Y" | Indirect. Say "X is broken" |
+| Pola | Masalah |
+|------|---------|
+| "Saat X, saya sudah Y." | Templat naratif |
+| "X yang tidak Y" | Berputar. Katakan "X rusak". |
+| "Di mana X bertemu Y" (mis. "tempat tradisi bertemu inovasi") | Tagline klise; "di mana" pun keliru. Sebut hal konkretnya. |
 
-## False Agency
+## Calque (Terjemahan Harfiah)
 
-Giving inanimate things human verbs. Complaints don't "become" fixes. Bets don't "live or die." Decisions don't "emerge." A person does something to make those things happen. AI loves this because it avoids naming the actor.
+Idiom dan struktur bahasa Inggris yang diterjemahkan kata demi kata. Terbaca janggal bagi pembaca Indonesia dan menandakan teks "dipikirkan" dalam bahasa Inggris dulu, baru dialihkan.
 
-| Pattern | Problem |
-|---------|---------|
-| "a complaint becomes a fix" | The complaint did nothing. Someone fixed it. |
-| "a bet lives or dies in days" | Bets don't have lifespans. Someone kills the project or ships it. |
-| "the decision emerges" | Decisions don't emerge. Someone decides. |
-| "the culture shifts" | Cultures don't shift on their own. People change behavior. |
-| "the conversation moves toward" | Conversations don't move. Someone steers. |
-| "the data tells us" | Data sits there. Someone reads it and draws a conclusion. |
-| "the market rewards" | Markets don't reward. Buyers pay for things. |
+| Pola | Asalnya |
+|------|---------|
+| "Di penghujung hari" | *at the end of the day* |
+| "Penting untuk dicatat bahwa" | *it is important to note that* |
+| "Mengeksplorasi lanskap (digital, pendidikan)" | *exploring the landscape of* |
+| "Membuka potensi" | *unlock potential* |
+| "Permadani budaya" | *cultural tapestry* |
 
-**Instead:** Name the human. "The team fixed it that week" beats "the complaint becomes a fix." If no specific person fits, use "you" to put the reader in the seat.
+**Sebagai gantinya:** pakai ungkapan Indonesia yang lugas, atau langsung ke poin. "Di penghujung hari" jadi "Singkatnya", atau buang.
 
-## Narrator-from-a-Distance
+## Pembesaran Makna dan Warisan
 
-Floating above the scene instead of putting the reader in it.
+Mesin menggelembungkan pentingnya subjek dengan mengaitkannya ke tren atau warisan yang lebih besar, bahkan untuk hal sepele. Akibatnya subjek jadi kabur sekaligus dilebih-lebihkan.
 
-| Pattern | Problem |
-|---------|---------|
-| "Nobody designed this." | Disembodied observation |
-| "This happens because..." | Lecturer voice |
-| "This is why..." | Same |
-| "People tend to..." | Armchair sociologist |
+| Pola | Masalah |
+|------|---------|
+| "menjadi tonggak penting dalam ..." | Klaim penting tanpa bukti |
+| "merupakan bukti nyata dari ..." | Makna yang ditempelkan |
+| "memainkan peran penting/krusial dalam ..." | Peran yang dibesar-besarkan |
+| "menandai pergeseran" / "titik balik penting" | Drama sejarah |
+| "mencerminkan tren yang lebih luas" | Dikaitkan paksa ke hal besar |
+| "meninggalkan jejak yang mendalam" | Klise warisan |
+| "berakar kuat pada ..." | Frasa hiasan |
 
-**Instead:** Put the reader in the room. "You don't sit down one day and decide to..." beats "Nobody designed this."
+**Sebagai gantinya:** sebut fakta yang spesifik. Buang penilaian besar yang tidak didukung sumber.
 
-## Passive Voice
+## Analisis Tempelan
 
-Every sentence needs a subject doing something. Passive voice hides the actor and drains energy.
+Mesin menempelkan klausa penilaian di ekor kalimat, sering diawali "yang me-" atau "sehingga", supaya kalimat tampak berbobot.
 
-| Pattern | Fix |
-|---------|-----|
-| "X was created" | Name who created it |
-| "It is believed that" | Name who believes it |
-| "Mistakes were made" | Name who made them |
-| "The decision was reached" | Name who decided |
+| Pola | Masalah |
+|------|---------|
+| "..., yang menyoroti pentingnya ..." | Penilaian yang ditempelkan |
+| "..., sehingga memperkuat perannya ..." | Simpulan yang dipaksakan |
+| "..., yang mencerminkan kekayaan ..." | Makna yang dikarang |
+| "..., menjadikannya pusat dari ..." | Lompatan tak berdasar |
 
-**Instead:** Find the actor. Put them at the front of the sentence.
+**Sebagai gantinya:** akhiri kalimat pada faktanya. Buang ekor penilaiannya.
 
-## Sentence Starters to Avoid
+## Agen Palsu
 
-| Pattern | Fix |
-|---------|-----|
-| Sentences starting with What, When, Where, Which, Who, Why, How | Restructure. Lead with the subject or the verb. |
-| Paragraphs starting with "So" | Start with content |
-| Sentences starting with "Look," | Remove |
+Memberi kata kerja manusia kepada benda mati. Keluhan tidak "berubah" jadi solusi. Taruhan tidak "hidup atau mati". Keputusan tidak "muncul". Seseorang melakukan sesuatu hingga hal itu terjadi. Mesin menyukai pola ini karena ia menghindari penyebutan pelakunya.
 
-Wh- openers become a crutch. "What makes this hard is..." becomes "The constraint is..." or better, name the specific constraint.
+| Pola | Masalah |
+|------|---------|
+| "keluhan berubah menjadi solusi" | Keluhan tidak berbuat apa-apa. Seseorang yang memperbaiki keadaan. |
+| "taruhan hidup atau mati dalam hitungan hari" | Taruhan tidak punya usia. Seseorang menghentikan atau merilis proyeknya. |
+| "keputusan itu muncul" | Keputusan tidak muncul. Seseorang memutuskan. |
+| "budaya bergeser" | Budaya tidak bergeser sendiri. Orang mengubah perilaku. |
+| "teknologi mengubah cara kita hidup" | Teknologi tidak berbuat. Orang memakainya untuk sesuatu. |
+| "data memberi tahu kita" | Data hanya diam. Seseorang membacanya lalu menyimpulkan. |
+| "pasar memberi penghargaan" | Pasar tidak memberi apa-apa. Pembeli membayar sesuatu. |
 
-## Rhythm Patterns
+**Sebagai gantinya:** sebut manusianya. "Tim memperbaikinya minggu itu" lebih baik daripada "keluhan berubah menjadi solusi". Kalau tidak ada orang tertentu yang pas, pakai "Anda" supaya pembaca yang jadi pelakunya.
 
-| Pattern | Fix |
-|---------|-----|
-| Three-item lists | Use two items or one |
-| Questions answered immediately | Let questions breathe or cut them |
-| Every paragraph ends punchily | Vary endings |
-| Em-dashes | Remove. Use commas or periods. No em dashes at all. |
-| Staccato fragmentation | Don't stack short punchy sentences |
-| "Not always. Not perfectly." | Hedging disguised as reassurance |
+## Narator dari Kejauhan
 
-## Word Patterns
+Melayang di atas adegan, bukan menempatkan pembaca di dalamnya.
 
-| Pattern | Problem |
-|---------|---------|
-| Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
-| All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+| Pola | Masalah |
+|------|---------|
+| "Tak seorang pun merancang ini." | Pengamatan tanpa tubuh |
+| "Hal ini terjadi karena..." | Suara penceramah |
+| "Inilah sebabnya..." | Sama |
+| "Orang cenderung..." | Berteori dari balik meja |
+
+**Sebagai gantinya:** tempatkan pembaca di ruangan. "Anda tidak duduk suatu hari lalu memutuskan untuk berhenti" lebih baik daripada "Tak seorang pun merancang ini".
+
+## Kalimat Pasif
+
+Setiap kalimat butuh subjek yang berbuat. Kalimat pasif menyembunyikan pelaku dan menguras tenaga. Bahasa Indonesia gampang jatuh ke bentuk pasif "di-".
+
+| Pola | Perbaikan |
+|------|-----------|
+| "X diciptakan" | Sebut siapa yang menciptakan |
+| "Diyakini bahwa" | Sebut siapa yang meyakini |
+| "Kesalahan telah dibuat" | Sebut siapa yang membuat |
+| "Keputusan telah diambil" | Sebut siapa yang memutuskan |
+| "Dapat dikatakan bahwa" | Buang. Katakan saja hal itu. |
+
+**Sebagai gantinya:** temukan pelakunya. Taruh dia di depan kalimat.
+
+## Pembuka Kalimat yang Harus Dihindari
+
+| Pola | Perbaikan |
+|------|-----------|
+| "Apa yang membuat X begitu Y adalah..." | Sebut langsung. "Kendalanya adalah..." atau sebut hal spesifiknya. |
+| Pertanyaan retoris yang langsung dijawab sendiri ("Mengapa ini sulit? Karena...") | Buang pertanyaannya, sampaikan jawabannya. |
+| Paragraf dibuka dengan "Jadi," | Mulai dengan isi. |
+| Kalimat dibuka dengan "Nah," | Hapus. |
+| Kalimat dibuka dengan "Lihat," | Hapus. |
+
+Pembuka "Apa yang membuat..." jadi tumpuan malas. "Apa yang membuat ini sulit adalah waktu yang terbatas" jadi "Waktu kami terbatas".
+
+## Kata Penghubung yang Dipaksakan
+
+Mesin menyambung tiap kalimat dengan konjungsi eksplisit supaya hubungan logikanya terbaca jelas. Hasilnya kaku dan berulang.
+
+| Pola | Masalah |
+|------|---------|
+| "Hal ini menunjukkan bahwa..." | Jembatan logika yang berlebihan |
+| "Dalam konteks ini,..." | Transisi otomatis |
+| "Selain itu,..." di tiap awal kalimat | Penghubung yang berulang |
+| "Di sisi lain," / "Dengan demikian," di awal banyak paragraf | Transisi antarkalimat yang monoton |
+| "Tak hanya itu," / "Lebih lanjut," | Penghubung yang itu-itu saja |
+| "Sebagai hasilnya," / "Sebagai akibatnya," | Sebab-akibat yang dieja berlebihan |
+
+**Sebagai gantinya:** biarkan urutan kalimat menyiratkan hubungannya. Buang penghubung kalau maknanya sudah jelas.
+
+## Penutup Tantangan dan Masa Depan
+
+Mesin gemar menutup tulisan dengan bagian "Tantangan" lalu ramalan optimistis. Polanya kaku dan gampang ditebak.
+
+| Pola | Masalah |
+|------|---------|
+| "Meskipun demikian, X menghadapi sejumlah tantangan ..." | Rumus penutup |
+| "Namun, dengan inisiatif yang ada, X terus berkembang." | Optimisme spekulatif |
+| Subbagian "Tantangan dan Masa Depan" / "Prospek ke Depan" | Struktur templat |
+
+**Sebagai gantinya:** kalau ada tantangan nyata beserta sumbernya, sebut spesifik. Jangan menutup dengan spekulasi yang menghibur.
+
+## Menghindari Kata "adalah"
+
+Mesin mengganti "adalah" dan "punya" dengan kata kerja yang lebih megah supaya terdengar resmi.
+
+| Pola | Perbaikan |
+|------|-----------|
+| "berperan sebagai", "berdiri sebagai", "berfungsi sebagai" | Sering cukup "adalah" |
+| "menjadi" (padahal maksudnya "adalah") | "adalah" |
+| "menyuguhkan", "menawarkan", "menghadirkan", "menampilkan" | Sering cukup "punya" atau "memiliki" |
+
+**Sebagai gantinya:** pakai "adalah" atau "punya" kalau memang itu maksudnya.
+
+## Pola Irama
+
+| Pola | Perbaikan |
+|------|-----------|
+| Pola tiga (mis. "senyap, hangat, abadi") | Pakai dua butir, atau satu |
+| Pertanyaan yang langsung dijawab | Beri ruang pada pertanyaan, atau buang |
+| Tiap paragraf ditutup kalimat pamungkas | Variasikan penutupnya |
+| Tanda pisah (em dash) | Hapus. Pakai koma atau titik. Jangan pakai em dash sama sekali. |
+| Fragmentasi tersendat | Jangan menumpuk kalimat pendek beruntun |
+| Tiap paragraf berpola sama (topik, pendukung, penegas) | Selipkan paragraf pendek; variasikan susunannya |
+| "Meskipun ada kelemahan, ada pula kelebihan." | Sikap diplomatis yang menghindari pendirian. Ambil sikap. |
+| "Di satu sisi... di sisi lain..." | Berimbang sampai tak berpendapat. Pilih satu sisi. |
+| Nada terlalu memuji atau bersemangat | Turunkan. Tulis datar dan jujur. |
+| Penutup berisi petuah atau pelajaran hidup | Sudahi saat poin selesai. Jangan menggurui. |
+| "Tidak selalu. Tidak sempurna." | Keraguan yang menyamar jadi penenang |
+
+## Pola Format
+
+| Pola | Masalah |
+|------|---------|
+| Semua poin dipecah jadi bullet atau daftar bernomor | Memenggal yang seharusnya mengalir sebagai prosa |
+| Istilah penting dicetak tebal di tiap poin | Penyorotan berlebihan |
+| Tulisan pendek diberi subjudul, pendahuluan, dan kesimpulan | Manusia jarang menstrukturkannya seformal itu |
+| Judul Ditulis Dengan Kapital Di Setiap Kata | Indonesia mengapitalkan awal kalimat dan nama diri saja |
+| Titik dua, tanda petik, dan em dash bertebaran | Pakai seperlunya |
+| Emoji dipakai sebagai bullet atau penanda poin | Buang. Pakai teks biasa. |
+| Bullet berupa header tebal diikuti titik dua, lalu penjelasan | Tulis sebagai prosa |
+| Tabel kecil untuk dua-tiga data | Tulis sebagai kalimat |
+| Tiap bagian ditutup rangkuman | Struktur templat |
+
+**Sebagai gantinya:** tulis prosa yang mengalir. Pakai daftar hanya untuk hal yang memang berupa daftar.
+
+## Jejak Salin-Tempel
+
+Sisa dari antarmuka chatbot yang ikut tersalin. Bersihkan ke format yang dipakai.
+
+| Jejak | Perbaikan |
+|-------|-----------|
+| Tanda kutip lengkung (“...” atau ‘...’) alih-alih lurus ("..." atau '...') | Ganti ke tanda kutip lurus |
+| Apostrof lengkung (’) pada kata seperti "Indonesia’s" | Hindari; ini pola bahasa Inggris |
+| Sisa Markdown: \*\*tebal\*\*, ## judul, ``` , atau - sebagai bullet | Ubah ke format dokumen yang dipakai |
+| Tautan dengan tag "utm_source=chatgpt.com" atau "?ref=" | Buang bagian itu dari tautan |
+| Teks pengganti yang lupa diisi: "[Nama Anda]", "[masukkan ...]", "2025-XX-XX" | Isi atau hapus |
+
+## Redundansi
+
+Mengulang gagasan yang sama dengan susunan kata berbeda, atau menjelaskan hal yang sudah dipahami pembaca. Sampaikan sekali, lalu lanjut.
+
+## Pola Kata
+
+| Pola | Masalah |
+|------|---------|
+| Ekstrem malas (setiap, selalu, tidak pernah, semua orang, semua, tak seorang pun) | Otoritas palsu. Pakai hal spesifik, bukan klaim yang menyapu. |
+| Semua penyangat ("sangat", "benar-benar", "sungguh", "secara harfiah", "begitu") | Penekanan kosong. Lihat daftar lengkap di phrases.md. |

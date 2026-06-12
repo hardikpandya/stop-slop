@@ -1,128 +1,204 @@
-# Phrases to Remove
+# Frasa yang Harus Dibuang
 
-## Throat-Clearing Openers
+## Pembuka Basa-basi
 
-Remove these announcement phrases. State the content directly.
+Frasa pengumuman seperti ini menunda isi. Buang, lalu sampaikan poinnya.
 
-- "Here's the thing:"
-- "Here's what [X]"
-- "Here's this [X]"
-- "Here's that [X]"
-- "Here's why [X]"
-- "The uncomfortable truth is"
-- "It turns out"
-- "The real [X] is"
-- "Let me be clear"
-- "The truth is,"
-- "I'll say it again:"
-- "I'm going to be honest"
-- "Can we talk about"
-- "Here's what I find interesting"
-- "Here's the problem though"
+- "Begini,"
+- "Begini masalahnya,"
+- "Inilah yang menarik:"
+- "Inilah persoalannya:"
+- "Yang menarik adalah,"
+- "Ternyata,"
+- "Faktanya,"
+- "Kenyataannya,"
+- "Sejujurnya," / "Jujur saja,"
+- "Tidak dapat dipungkiri bahwa,"
+- "Perlu diakui,"
+- "Penting untuk dicatat bahwa,"
+- "Perlu diingat bahwa,"
+- "Mari kita perjelas,"
+- "Izinkan saya menegaskan,"
+- "Akan saya ulangi:"
+- "Bisakah kita membahas"
+- "Mari kita bahas,"
+- "Berikut adalah beberapa,"
+- "Kebenaran yang sebenarnya adalah,"
 
-Any "here's what/this/that" construction is throat-clearing before the point. Cut it and state the point.
+Setiap konstruksi "inilah/begini" hanyalah ancang-ancang sebelum poin. Potong, lalu nyatakan poinnya.
 
-## Emphasis Crutches
+## Penegas Kosong
 
-These add no meaning. Delete them.
+Kata-kata ini tidak menambah makna. Hapus.
 
-- "Full stop." / "Period."
-- "Let that sink in."
-- "This matters because"
-- "Make no mistake"
-- "Here's why that matters"
+- "Titik."
+- "Resapi itu." / "Renungkan itu." / "Camkan itu."
+- "Ini penting karena"
+- "Jangan salah,"
+- "Inilah alasan kenapa itu penting,"
+- "Garis bawahi itu."
 
-## Business Jargon
+## Jargon Korporat
 
-Replace with plain language.
+Ganti dengan bahasa biasa.
 
-| Avoid | Use instead |
-|-------|-------------|
-| Navigate (challenges) | Handle, address |
-| Unpack (analysis) | Explain, examine |
-| Lean into | Accept, embrace |
-| Landscape (context) | Situation, field |
-| Game-changer | Significant, important |
-| Double down | Commit, increase |
-| Deep dive | Analysis, examination |
-| Take a step back | Reconsider |
-| Moving forward | Next, from now |
-| Circle back | Return to, revisit |
-| On the same page | Aligned, agreed |
+| Hindari | Pakai |
+|---------|-------|
+| Menavigasi (tantangan) | Menghadapi, mengatasi |
+| Mengupas tuntas | Menjelaskan, membahas |
+| Membedah | Menelaah, mengkaji |
+| Merangkul (perubahan) | Menerima, menjalani |
+| Lanskap (digital, bisnis) | Keadaan, bidang, dunia |
+| Ranah (dipakai di mana-mana) | Bidang, dunia |
+| Pengubah permainan | Penting, menentukan |
+| Menyelami lebih dalam | Menelaah |
+| Mengambil langkah mundur | Meninjau ulang |
+| Ke depannya | Selanjutnya, mulai sekarang |
+| Bersinergi | Bekerja sama |
+| Mengakselerasi | Mempercepat |
+| Mengoptimalkan | Memperbaiki, menyempurnakan |
 
-## Adverbs
+## Diksi Akademik yang Diobral
 
-Kill all adverbs. No -ly words. No softeners, no intensifiers, no hedges.
+Mesin menumpuk kata akademik yang "aman" padahal kata sederhana lebih pas. Ganti.
 
-Specific offenders:
+| Hindari | Pakai |
+|---------|-------|
+| Signifikan | Besar, nyata, penting |
+| Implikasi | Dampak, akibat, efek |
+| Krusial | Penting, genting |
+| Esensial | Pokok, penting |
+| Komprehensif | Menyeluruh, lengkap |
+| Holistik | Menyeluruh |
+| Menggarisbawahi | Menekankan |
+| Mendalami / menyelami | Menelaah |
+| Menjadi bukti, testimoni | (sebut faktanya) |
+| Memupuk, menumbuhkan | Membangun, mendorong |
+| Tangguh, kokoh, mumpuni | Kuat, andal |
+| Menuai, meraih | Mendapat |
 
-- "really"
-- "just"
-- "literally"
-- "genuinely"
-- "honestly"
-- "simply"
-- "actually"
-- "deeply"
-- "truly"
-- "fundamentally"
-- "inherently"
-- "inevitably"
-- "interestingly"
-- "importantly"
-- "crucially"
+## Bahasa Promosi dan Brosur
 
-Also cut these filler phrases:
+Mesin sulit menjaga nada netral. Keluarannya gampang berubah jadi brosur wisata atau iklan. Ganti dengan fakta.
 
-- "At its core"
-- "In today's [X]"
-- "It's worth noting"
-- "At the end of the day"
-- "When it comes to"
-- "In a world where"
-- "The reality is"
+| Hindari | Catatan |
+|---------|---------|
+| Menyuguhkan, menawarkan, menghadirkan | Sering cukup "punya" atau "ada"; sebut faktanya |
+| Memesona, memukau, menawan | Subjektif. Tunjukkan, jangan klaim. |
+| Permai, indah, elok | Tunjukkan lewat detail, bukan label |
+| Kaya akan, kekayaan budaya | Sebut isinya |
+| Terletak di jantung, di tengah-tengah | Sebut lokasinya |
+| Beragam, aneka, segudang | Sebut jumlah atau contohnya |
+| Terkenal, ternama, tersohor | Sebut sumber pengakuannya |
+| Memiliki sejarah panjang yang kaya | Sebut tahun dan peristiwanya |
 
-## Meta-Commentary
+## Kata Keterangan dan Penyangat
 
-Remove self-referential asides. The essay should move, not announce its own structure.
+Buang penyangat kosong. Kata-kata ini memompa kalimat tanpa menambah keterangan.
 
-- "Hint:"
-- "Plot twist:" / "Spoiler:"
-- "You already know this, but"
-- "But that's another post"
-- "X is a feature, not a bug"
-- "Dressed up as"
-- "The rest of this essay explains..."
-- "Let me walk you through..."
-- "In this section, we'll..."
-- "As we'll see..."
-- "I want to explore..."
+- "sangat"
+- "amat" / "amat sangat"
+- "begitu"
+- "benar-benar"
+- "sungguh"
+- "betul-betul"
+- "teramat"
+- "sangatlah"
+- "tentu saja" / "tentunya"
+- "pastinya"
 
-## Performative Emphasis
+Bentuk "secara [X]" yang sering dipakai mesin tanpa isi:
 
-False intimacy or manufactured sincerity:
+- "secara signifikan"
+- "secara fundamental"
+- "secara mendasar"
+- "secara inheren"
+- "secara harfiah"
+- "secara praktis"
+- "secara efektif"
 
-- "creeps in"
-- "I promise"
-- "They exist, I promise"
+Buang juga frasa pengisi ini:
 
-## Telling Instead of Showing
+- "Pada dasarnya," / "Pada hakikatnya,"
+- "Sejatinya,"
+- "Pada intinya,"
+- "Di era digital ini," / "Di zaman serba cepat ini,"
+- "Seiring perkembangan zaman," / "Seiring berjalannya waktu,"
+- "Perlu dicatat bahwa,"
+- "Ketika berbicara soal,"
+- "Dalam dunia yang serba"
+- "Pada akhirnya,"
+- "Secara keseluruhan,"
+- "Sebagai kesimpulannya,"
+- "Kesimpulannya,"
+- "Semoga bermanfaat,"
+- "Jangan ragu untuk bertanya,"
 
-Announcing difficulty or significance rather than demonstrating it:
+## Meta-komentar
 
-- "This is genuinely hard"
-- "This is what leadership actually looks like"
-- "This is what X actually looks like"
-- "actually matters"
+Buang sisipan yang menunjuk tulisannya sendiri. Tulisan harus bergerak, bukan mengumumkan strukturnya.
 
-## Vague Declaratives
+- "Bocoran:" / "Petunjuk:"
+- "Plot twist:" / "Kejutannya:"
+- "Anda mungkin sudah tahu, tapi"
+- "Tapi itu bahasan lain"
+- "X adalah fitur, bukan kerusakan"
+- "Dikemas sebagai"
+- "Selebihnya akan dijelaskan di bawah"
+- "Mari saya pandu Anda"
+- "Di bagian ini, kita akan membahas"
+- "Seperti yang akan kita lihat nanti"
+- "Saya ingin mengupas"
 
-Sentences that announce importance without naming the specific thing. Kill these.
+## Bocoran Antarmuka Chatbot
 
-- "The reasons are structural"
-- "The implications are significant"
-- "This is the deepest problem"
-- "The stakes are high"
-- "The consequences are real"
+Teks yang bocor dari percakapan dengan chatbot, bukan dari tulisan yang sebenarnya. Hapus seluruhnya.
 
-If a sentence says something is important/deep/structural without showing the specific thing, cut it or replace it with the specific thing.
+Sapaan dan basa-basi asisten:
+
+- "Tentu!" / "Tentu saja!"
+- "Semoga membantu"
+- "Anda benar sekali"
+- "Berikut adalah ..." (sebagai pembuka daftar)
+- "Apakah Anda ingin saya ..."
+- "Beri tahu saya jika ..."
+- "Sebagai model bahasa AI, ..."
+
+Sangkalan batas pengetahuan dan spekulasi:
+
+- "Hingga pembaruan pengetahuan terakhir saya, ..."
+- "Berdasarkan informasi yang tersedia, ..."
+- "Meskipun detail spesifik terbatas, ..."
+- "tidak banyak terdokumentasi"
+- "ia kemungkinan besar ..." (menebak lalu menyajikannya sebagai fakta)
+- "ia menjaga privasinya" / "tampil dengan profil rendah"
+
+## Penekanan yang Dibuat-buat
+
+Keakraban palsu atau ketulusan yang dipaksakan:
+
+- "merayap masuk"
+- "percayalah"
+- "Sungguh, percayalah"
+- "saya jamin"
+
+## Memberi Tahu, Bukan Menunjukkan
+
+Mengumumkan bahwa sesuatu sulit atau penting alih-alih membuktikannya:
+
+- "Ini benar-benar sulit"
+- "Beginilah kepemimpinan yang sesungguhnya"
+- "Inilah wujud X yang sebenarnya"
+- "benar-benar penting"
+
+## Deklaratif Kabur
+
+Kalimat yang mengumumkan pentingnya sesuatu tanpa menyebut hal yang dimaksud. Buang.
+
+- "Alasannya bersifat struktural."
+- "Implikasinya besar."
+- "Ini persoalan yang paling mendasar."
+- "Taruhannya tinggi."
+- "Konsekuensinya nyata."
+
+Kalau sebuah kalimat menyebut sesuatu itu penting, dalam, atau struktural tanpa menunjukkan hal konkretnya, potong kalimat itu atau ganti dengan hal konkretnya.

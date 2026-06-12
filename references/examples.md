@@ -1,59 +1,83 @@
-# Before/After Examples
+# Contoh Sebelum/Sesudah
 
-## Example 1: Throat-Clearing + Binary Contrast
+## Contoh 1: Pembuka Basa-basi + Kontras Biner
 
-**Before:**
-> "Here's the thing: building products is hard. Not because the technology is complex. Because people are complex. Let that sink in."
+**Sebelum:**
+> "Begini: membangun produk itu sulit. Bukan karena teknologinya rumit. Tapi karena manusianya rumit. Resapi itu."
 
-**After:**
-> "Building products is hard. Technology is manageable. People aren't."
+**Sesudah:**
+> "Membangun produk itu sulit. Teknologi bisa diatur. Manusia tidak."
 
-**Changes:** Removed opener, binary contrast structure, and emphasis crutch. Direct statements.
-
----
-
-## Example 2: Filler + Unnecessary Reassurance
-
-**Before:**
-> "It turns out that most teams struggle with alignment. The uncomfortable truth is that nobody wants to admit they're confused. And that's okay."
-
-**After:**
-> "Teams struggle with alignment. Nobody admits confusion."
-
-**Changes:** Cut hedging ("most"), removed throat-clearing phrases, deleted permission-granting ending.
+**Perubahan:** Membuang pembuka, struktur kontras biner, dan penegas kosong. Tinggal pernyataan langsung.
 
 ---
 
-## Example 3: Business Jargon Stack
+## Contoh 2: Pengisi + Penenang yang Tidak Perlu
 
-**Before:**
-> "In today's fast-paced landscape, we need to lean into discomfort and navigate uncertainty with clarity. This matters because your competition isn't waiting."
+**Sebelum:**
+> "Ternyata, sebagian besar tim kesulitan menyamakan langkah. Kebenaran yang tidak nyaman adalah tak seorang pun mau mengakui dirinya bingung. Dan itu tidak masalah."
 
-**After:**
-> "Move faster. Your competition is."
+**Sesudah:**
+> "Tim kesulitan menyamakan langkah. Tak ada yang mau mengakui kebingungannya."
 
-**Changes:** Eliminated jargon entirely. Core message in six words.
-
----
-
-## Example 4: Dramatic Fragmentation
-
-**Before:**
-> "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
-
-**After:**
-> "Speed, quality, cost—pick two."
-
-**Changes:** Single sentence. No performative emphasis.
+**Perubahan:** Membuang kata pelembut ("sebagian besar"), frasa basa-basi, dan penutup yang memberi izin.
 
 ---
 
-## Example 5: Rhetorical Setup
+## Contoh 3: Tumpukan Jargon
 
-**Before:**
-> "What if I told you that the best teams don't optimize for productivity? Here's what I mean: they optimize for learning. Think about it."
+**Sebelum:**
+> "Di era yang serba cepat ini, kita perlu merangkul ketidaknyamanan dan menavigasi ketidakpastian dengan jernih. Ini penting karena pesaing Anda tidak sedang menunggu."
 
-**After:**
-> "The best teams optimize for learning, not productivity."
+**Sesudah:**
+> "Bergeraklah lebih cepat. Pesaing Anda tidak menunggu."
 
-**Changes:** Direct claim. No rhetorical scaffolding.
+**Perubahan:** Membuang jargon sepenuhnya. Pesannya tinggal dua kalimat.
+
+---
+
+## Contoh 4: Fragmentasi Dramatis
+
+**Sebelum:**
+> "Cepat. Murah. Berkualitas. Anda hanya bisa memilih dua. Itu saja. Itulah pertukarannya."
+
+**Sesudah:**
+> "Cepat, murah, berkualitas: pilih dua."
+
+**Perubahan:** Satu kalimat. Tanpa penekanan yang dipentaskan.
+
+---
+
+## Contoh 5: Pancingan Retoris
+
+**Sebelum:**
+> "Bagaimana jika saya katakan tim terbaik tidak mengutamakan produktivitas? Maksud saya begini: mereka mengutamakan proses belajar. Coba pikirkan."
+
+**Sesudah:**
+> "Tim terbaik mengutamakan belajar, bukan produktivitas."
+
+**Perubahan:** Klaim langsung. Tanpa perancah retoris.
+
+---
+
+## Contoh 6: Klise Pembuka Era + Agen Palsu + "Bukan Sekadar"
+
+**Sebelum:**
+> "Di era transformasi digital ini, kecerdasan buatan telah merevolusi cara perusahaan bekerja. Ini bukan sekadar tren, melainkan sebuah keniscayaan yang akan mengubah lanskap bisnis untuk selamanya."
+
+**Sesudah:**
+> "Perusahaan memakai AI untuk menulis laporan dan membalas pelanggan. Pekerjaan yang dulu butuh lima orang kini cukup satu."
+
+**Perubahan:** Membuang pembuka "era", agen palsu ("AI merevolusi"), kontras "bukan sekadar", dan jargon "lanskap". Klaim kabur diganti contoh konkret.
+
+---
+
+## Contoh 7: Bahasa Brosur + Pembesaran Makna
+
+**Sebelum:**
+> "Terletak di jantung Pulau Jawa, kota ini menyuguhkan kekayaan budaya yang memukau dan menjadi tonggak penting dalam sejarah Nusantara, mencerminkan perjalanan panjang yang meninggalkan jejak mendalam bagi generasi mendatang."
+
+**Sesudah:**
+> "Kota ini berada di tengah Pulau Jawa. Keratonnya berdiri sejak 1755, dan pasar batiknya masih ramai sampai sekarang."
+
+**Perubahan:** Membuang bahasa brosur ("menyuguhkan", "memukau"), pembesaran makna ("tonggak penting", "jejak mendalam"), dan analisis tempelan ("mencerminkan perjalanan panjang"). Diganti dua fakta konkret.
