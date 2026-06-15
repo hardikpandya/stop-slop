@@ -59,6 +59,33 @@ Rate 1-10 on each dimension:
 
 Below 35/50: revise.
 
+## Interactive Analysis
+
+Use the `analyze.py` script to scan text for AI-writing patterns:
+
+```bash
+# Install dependencies (Python 3.10+ required, no external deps)
+
+# Analyze a file
+python3 scripts/analyze.py <file.txt>
+
+# Analyze stdin
+echo "your text" | python3 scripts/analyze.py
+
+# Interactive mode (paste text, then Ctrl+D)
+python3 scripts/analyze.py --interactive
+
+# JSON output (for tooling / pipelines)
+python3 scripts/analyze.py <file.txt> --json
+```
+
+The script:
+- Detects 18+ pattern categories from `references/phrases.md` and `references/structures.md`
+- Reports exact line numbers, matched text, context, and actionable suggestions
+- Computes a 0–100 slop score (0 = clean, 100 = maximum slop)
+- Scores 5 dimensions from this SKILL.md: Directness, Rhythm, Trust, Authenticity, Density
+- Requires no external dependencies — pure Python 3 stdlib
+
 ## Examples
 
 See [references/examples.md](references/examples.md) for before/after transformations.
