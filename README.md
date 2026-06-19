@@ -2,6 +2,8 @@
 
 A skill for removing AI tells from prose.
 
+> 🇫🇷 **Version française :** une adaptation pour le français (et non une simple traduction) est disponible dans [`stop-slop-fr/`](stop-slop-fr/). Elle couvre les tics propres au français : gérondif final, « on » impersonnel, phrases clivées, anglicismes, connecteurs scolaires, énumérations ternaires et typographie française.
+
 <img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
 
 ## What this is
