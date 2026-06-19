@@ -48,7 +48,7 @@ Replace with plain language.
 | Take a step back | Reconsider |
 | Moving forward | Next, from now |
 | Circle back | Return to, revisit |
-| On the same page | Aligned, agreed |
+| On the same page | Agreed, in agreement |
 
 ## Adverbs
 
