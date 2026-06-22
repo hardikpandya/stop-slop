@@ -9,7 +9,7 @@ These create false drama. State the point directly.
 | "Not because X. Because Y." / "Not because X, but because Y." | Telegraphed reversal |
 | "[X] isn't the problem. [Y] is." | Formulaic reframe |
 | "The answer isn't X. It's Y." | Predictable pivot |
-| "It feels like X. It's actually Y." | Setup/reveal cliche |
+| "It feels like X. It's actually Y." | Setup/reveal cliché |
 | "The question isn't X. It's Y." | Rhetorical misdirection |
 | "Not X. But Y." / "not X, it's Y" / "isn't X, it's Y" | Mechanical contrast |
 | "It's not this. It's that." | Same formula, different words |
