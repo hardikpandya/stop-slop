@@ -44,6 +44,15 @@ Before delivering prose:
 - Vague declarative ("The implications are significant")? Name the specific implication.
 - Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
 - Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
+- Complexity announced without demonstrated ("This is more nuanced than it appears")? Remove the announcement or show the complexity.
+- Empathy statement before content earns it ("This can feel overwhelming")? Delete.
+- Discovery narration ("As I researched this...")? Cut the journey. Lead with the finding.
+- Hedged urgency ("This may be one of the most...")? State the claim directly or cut it.
+- Paragraph opens or closes with a freestanding aphorism? Check whether it's earned or decorating.
+- Transition phrase opening a paragraph ("With that in mind," "Taken together," "Against this backdrop")? Remove and check if the paragraphs actually connect. If not, rewrite the logic.
+- Closing paragraph opens with "Ultimately," "In the end," or "Taken together"? Read it against the opening paragraph. If it restates, replace it with something the body earned.
+- Numbered or bulleted list where the items connect causally? Rewrite as continuous argument.
+- Weak verb plus abstract noun ("work to ensure," "seek to address," "take steps to")? Collapse to the real verb.
 
 ## Scoring
 
@@ -56,8 +65,9 @@ Rate 1-10 on each dimension:
 | Trust | Respects reader intelligence? |
 | Authenticity | Sounds human? |
 | Density | Anything cuttable? |
+| Structure | Prose moves as argument, not as list of announcements? |
 
-Below 35/50: revise.
+Below 42/60: revise.
 
 ## Examples
 

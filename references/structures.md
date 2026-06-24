@@ -132,3 +132,63 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 |---------|---------|
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
 | All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+
+## Enumerated Non-Lists
+
+Turning continuous argument into numbered or bulleted items where none is needed. AI produces this as a default structure even when the ideas flow logically as prose.
+
+| Pattern | Problem |
+|---------|---------|
+| "There are three things to understand here:" + bullets | The list is a substitute for argument, not a container for it |
+| "Here are the key factors:" + numbered items | Prose that would connect is fragmented into items |
+| "This comes down to four principles:" | Turning a paragraph into a listicle |
+| Any framework named and numbered when the ideas aren't genuinely enumerable | The number implies equivalence and completeness that usually doesn't exist |
+
+**Rule:** Ask whether the items genuinely need separation or whether they're stages in a continuous argument. If they connect causally or narratively, write them as sentences. Lists are for genuinely discrete, parallel items. Arguments have structure, not item counts.
+
+## Weak Verb Constructions
+
+Using a weak verb plus abstract noun instead of the strong verb that does the thing directly. AI defaults to this because it sounds measured. It reads as evasive.
+
+| Weak construction | Strong version |
+|-------------------|----------------|
+| "need to think about" | "consider" |
+| "work to ensure" | "ensure" |
+| "help to facilitate" | "facilitate" |
+| "begin to understand" | "understand" |
+| "seek to address" | "address" |
+| "aim to improve" | "improve" |
+| "try to achieve" | "achieve" |
+| "look to develop" | "develop" |
+| "strive to create" | "create" |
+| "work towards building" | "build" |
+| "make an effort to" | the verb alone |
+| "take steps to" | the verb alone |
+
+**Rule:** Find the infinitive. That is the real verb. Use it directly. Cut everything before it.
+
+## The Wisdom Sandwich
+
+Every paragraph opens with a pithy maxim, makes a middle point, then closes with a second pithy statement. The effect is an essay written in fortune cookies. Common in AI-generated LinkedIn content and business writing.
+
+| Pattern | Problem |
+|---------|---------|
+| "Clarity is not a style choice. It's a survival strategy." | Aphorism doing the work of argument |
+| Opening sentence is a standalone maxim with no proper noun, number, or specific claim | Signals the paragraph will perform rather than argue |
+| Closing sentence is also aphoristic and could apply to any topic | The sandwich: maxim, content, maxim |
+
+**Rule:** Aphorisms can earn their place if the paragraph's evidence lands before them. An aphorism as an opener has borrowed authority it hasn't earned yet. An aphorism as a closer that could apply to any topic is a cliche. Check both ends of every paragraph.
+
+## The Summary That Restates
+
+Closing paragraphs that paraphrase the opening paragraph under a different opener. AI defaults to this because it creates a sense of closure without requiring new thought.
+
+| Pattern | Problem |
+|---------|---------|
+| Final paragraph opens with "Ultimately,..." | Almost always a restatement |
+| Final paragraph opens with "In the end,..." | Same |
+| Final paragraph opens with "When all is said and done,..." | Same |
+| Final paragraph opens with "Taken together,..." | Signals summary, not new ground |
+| Final paragraph opens with "What this means is..." | Often just repeats what was already said |
+
+**Rule:** Read the first paragraph and the last paragraph back-to-back. If the last says what the first said, cut the last or replace it with something the body actually earned. The final paragraph must add something, even if only a sharper formulation of the central claim.
