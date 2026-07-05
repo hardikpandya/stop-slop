@@ -6,7 +6,7 @@ A skill for removing AI tells from prose.
 
 ## What this is
 
-AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.
+AI writing repeats itself. The same phrases and structures surface in draft after draft. This skill teaches Claude (or any LLM) to catch and remove them.
 
 ## Skill Structure
 
@@ -59,4 +59,4 @@ Below 35/50: revise.
 
 ## License
 
-MIT. Use freely, share widely.
+MIT. Use it, share it.
