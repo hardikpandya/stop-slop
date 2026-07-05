@@ -18,7 +18,7 @@ These create false drama. State the point directly.
 | "is about X but not Y" | False distinction |
 | "not just X but also Y" | Additive hedge |
 
-**Instead:** State Y directly. "The problem is Y." "Y matters here." Drop the negation entirely.
+**Instead:** State Y directly. "The problem is Y." "Y matters here." Drop the negation.
 
 ## Negative Listing
 
