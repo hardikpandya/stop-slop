@@ -28,6 +28,10 @@ Eliminate predictable AI writing patterns from prose.
 
 8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
 
+## Output
+
+Deliver revised prose plain: no blockquote prefix (`> `), no code fences, no surrounding quotes, no leading indentation on lines. The user copy/pastes directly into email or docs.
+
 ## Quick Checks
 
 Before delivering prose:
