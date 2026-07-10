@@ -71,6 +71,7 @@ Specific offenders:
 - "interestingly"
 - "importantly"
 - "crucially"
+- "cleanly"
 
 Also cut these filler phrases:
 
