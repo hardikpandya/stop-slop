@@ -92,9 +92,9 @@ Floating above the scene instead of putting the reader in it.
 
 **Instead:** Put the reader in the room. "You don't sit down one day and decide to..." beats "Nobody designed this."
 
-## Passive Voice
+## Passive voice
 
-Every sentence needs a subject doing something. Passive voice hides the actor and drains energy.
+Prefer active voice when the actor is known and relevant. Keep passive voice when the actor is unknown, irrelevant, deliberately withheld, or when the object is the topic.
 
 | Pattern | Fix |
 |---------|-----|
@@ -105,11 +105,11 @@ Every sentence needs a subject doing something. Passive voice hides the actor an
 
 **Instead:** Find the actor. Put them at the front of the sentence.
 
-## Sentence Starters to Avoid
+## Sentence starters to watch
 
 | Pattern | Fix |
 |---------|-----|
-| Sentences starting with What, When, Where, Which, Who, Why, How | Restructure. Lead with the subject or the verb. |
+| Repeated sentences starting with What, When, Where, Which, Who, Why, How | Vary the opening when it has become a crutch. Keep useful questions and clauses. |
 | Paragraphs starting with "So" | Start with content |
 | Sentences starting with "Look," | Remove |
 
@@ -122,7 +122,7 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Three-item lists | Use two items or one |
 | Questions answered immediately | Let questions breathe or cut them |
 | Every paragraph ends punchily | Vary endings |
-| Em-dashes | Remove. Use commas or periods. No em dashes at all. |
+| Repeated em dashes used as dramatic pivots | Reduce or replace with commas and periods. Keep an occasional deliberate use when it fits the register. |
 | Staccato fragmentation | Don't stack short punchy sentences |
 | "Not always. Not perfectly." | Hedging disguised as reassurance |
 
@@ -131,4 +131,4 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Pattern | Problem |
 |---------|---------|
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
-| All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+| Clusters of empty intensifiers ("really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. Keep precise adverbs; see phrases.md. |

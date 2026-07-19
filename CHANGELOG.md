@@ -1,5 +1,22 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Hermes Agent installation and invocation instructions
+- Native French phrase, structure, translation-calque, and typography patterns
+- Extended English patterns for chatbot leaks, engagement bait, vague authority, rhythm, and publishing artifacts
+- Bilingual before/after examples and audit format
+- Draft, rewrite, audit, and file-edit modes
+- P0/P1/P2 severity levels and a final verification checklist
+
+### Changed
+
+- Treat adverbs, passive voice, questions, triads, and em dashes as contextual signals instead of absolute bans
+- Add safeguards against fabricated facts, citations, anecdotes, and personal experience
+- Adapt strictness to social, technical, academic, legal, sales, and casual writing
+
 ## 2026-01-13
 
 ### Added

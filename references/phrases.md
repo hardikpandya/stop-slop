@@ -50,9 +50,9 @@ Replace with plain language.
 | Circle back | Return to, revisit |
 | On the same page | Aligned, agreed |
 
-## Adverbs
+## Empty adverbs
 
-Kill all adverbs. No -ly words. No softeners, no intensifiers, no hedges.
+Cut adverbs that only soften or intensify. Keep adverbs that add timing, scope, degree, or manner. Do not ban every `-ly` word on sight.
 
 Specific offenders:
 
