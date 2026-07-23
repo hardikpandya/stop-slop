@@ -20,6 +20,18 @@ These create false drama. State the point directly.
 
 **Instead:** State Y directly. "The problem is Y." "Y matters here." Drop the negation entirely.
 
+### The Soft Form Counts Too
+
+"Not just X but also Y" gets caught above when it opens the sentence. It's the same tell when it trails at the end of a sentence that already made its point: "The platform tracks conversions, not just traffic." The main clause stated the real claim first; the trailing qualifier is repetition for emphasis, the same rhetorical reflex as the negation-first version, just reordered so it reads as earned because it came second. It isn't. Cut it:
+
+| Pattern | Fix |
+|---------|-----|
+| "[Real claim], not just [lesser thing]." | Delete the trailing clause. The claim already stands. |
+| "[Real claim], not simply [lesser thing]." | Same. |
+| "[Real claim], not only [lesser thing]." | Same. |
+
+Test: read the sentence with the qualifier removed. If it loses no information, the qualifier was decoration.
+
 ## Negative Listing
 
 Listing what something is *not* before revealing what it *is*. A rhetorical striptease.
@@ -115,6 +127,16 @@ Every sentence needs a subject doing something. Passive voice hides the actor an
 
 Wh- openers become a crutch. "What makes this hard is..." becomes "The constraint is..." or better, name the specific constraint.
 
+## Em Dashes: Zero, Not Fewer
+
+Not a rhythm preference. An absolute rule with no exceptions: no em dashes in sentences, no em dashes in headings, none in captions, none inside table cells used as a "not applicable" placeholder. If a document has a hundred of them, remove a hundred, not "most of them where it read awkwardly." Replace each one with whichever of these actually fits: a comma, a period (splitting into two sentences), a colon (introducing a list or explanation), a semicolon (joining two related independent clauses), or parentheses (setting off an aside). Do not substitute an en dash as a workaround; that just swaps one dash character for another. En dashes used for genuine numeric ranges ("6-12 months," "2-3 weeks") are a different, legitimate convention and are not affected by this rule.
+
+Before considering a document done, search it for the literal character. Do not rely on having "gone through and fixed the ones I noticed."
+
+## Punctuation Swaps Are Not Fixes
+
+A binary contrast or negative-listing sentence doesn't stop being one when the em dash is replaced with a period or comma. "Analytics is not a reporting nicety — it's the evidence base" and "Analytics is not a reporting nicety. It's the evidence base." are the same tell wearing different punctuation. The fix is to state the real claim once: "Analytics is the evidence base for this decision." When editing for em dashes specifically, check every sentence touched: if removing the dash left a "not X. It's Y." or "not X, it's Y." shape behind, the sentence still needs a full rewrite, not just a new joiner.
+
 ## Rhythm Patterns
 
 | Pattern | Fix |
@@ -122,7 +144,6 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Three-item lists | Use two items or one |
 | Questions answered immediately | Let questions breathe or cut them |
 | Every paragraph ends punchily | Vary endings |
-| Em-dashes | Remove. Use commas or periods. No em dashes at all. |
 | Staccato fragmentation | Don't stack short punchy sentences |
 | "Not always. Not perfectly." | Hedging disguised as reassurance |
 

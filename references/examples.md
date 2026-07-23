@@ -57,3 +57,30 @@
 > "The best teams optimize for learning, not productivity."
 
 **Changes:** Direct claim. No rhetorical scaffolding.
+
+---
+
+## Example 6: Punctuation Swap Is Not a Rewrite
+
+**Before:**
+> "For this client, analytics is not a reporting nicety — it's the evidence base for the negotiation, so it has to be built with more rigour than a standard dashboard."
+
+**Wrong fix (dash removed, tell kept):**
+> "For this client, analytics is not a reporting nicety. It's the evidence base for the negotiation, so it has to be built with more rigour than a standard dashboard."
+
+**Actual fix:**
+> "For this client, analytics is the evidence base for the negotiation, so it has to be built with more rigour than a standard dashboard."
+
+**Changes:** The wrong fix only changed the joiner between the two clauses; the negation-then-assertion shape survived intact. The actual fix states the real claim once and drops the setup entirely.
+
+---
+
+## Example 7: The Trailing "Not Just"
+
+**Before:**
+> "The dashboard turns this data into negotiation leverage, not just a sales tool."
+
+**After:**
+> "The dashboard turns this data into negotiation leverage."
+
+**Changes:** The main clause already made the point. "Not just a sales tool" is the same contrast pattern as "not X, it's Y," reordered so the negation trails instead of leads. Trailing doesn't make it earned. Cut it and check the sentence loses nothing.
