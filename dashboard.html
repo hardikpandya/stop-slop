@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Terminator Profit</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .controls {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .controls button {
+            padding: 10px 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s ease;
+        }
+
+        .controls button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .controls button.active {
+            background: #764ba2;
+        }
+
+        .sheet-tabs {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .sheet-tab {
+            padding: 8px 16px;
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.95em;
+        }
+
+        .sheet-tab:hover {
+            border-color: #667eea;
+            color: #667eea;
+        }
+
+        .sheet-tab.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+
+        .card-title {
+            font-size: 1.3em;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .metric {
+            background: #f5f7fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .metric-label {
+            font-size: 0.85em;
+            color: #666;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metric-value {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .metric-value.positive {
+            color: #10b981;
+        }
+
+        .metric-value.negative {
+            color: #ef4444;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 300px;
+            margin-bottom: 10px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+
+        table th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+        }
+
+        table td {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        table tr:hover {
+            background: #f5f7fa;
+        }
+
+        table tr:nth-child(even) {
+            background: #f9fafb;
+        }
+
+        .value-positive {
+            color: #10b981;
+            font-weight: 600;
+        }
+
+        .value-negative {
+            color: #ef4444;
+            font-weight: 600;
+        }
+
+        .stats-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-box-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .stat-box-value {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .no-data {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 1.8em;
+            }
+
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stat-box-value {
+                font-size: 1.4em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Dashboard Terminator Profit</h1>
+            <p>Análise e visualização de dados em tempo real</p>
+            <div class="controls">
+                <button onclick="loadExcel()">📥 Carregar Excel</button>
+                <button onclick="exportToPDF()">📄 Exportar PDF</button>
+                <button onclick="refreshData()">🔄 Atualizar</button>
+            </div>
+        </div>
+
+        <div class="sheet-tabs" id="sheetTabs"></div>
+
+        <div id="dashboardContent"></div>
+    </div>
+
+    <script>
+        const dashboardSource = {"sheets": ["Operacional", "Centro Mercado", "OPÇÕES", "EUA", "Macro", "PTAX", "Profitpro", "Ibov", "Calculos", "Base Opções"], "data": [["", "CESTA DXY", "", "", "INDEXADORES", "", "", "SENTIMENTO E.U.A", "", "", "", "ADRs BRASIL", "", "", "TOP 10 IBOV", "", "", "AGRESSÃO", ""], ["", "USD/EUR", 0.45184117476394237, "", "DOLINDEX", 0.28295330996310347, "", "Dow J.", "DOWI", 0, "", "EWZ", -1.3954786491766675, "", "VALE3", -0.5571030640668546, "", "WINQ26", -349399], ["", "USD/JPY", -1.8010652483020248e-14, "", "VXBR", 14.482126489459212, "", "S&P 500", "ESFUT", 0, "", "ITUB", -1.8960244648317965, "", "ITUB4", -2.5818790341860036, "", "INDQ26", -2525], ["", "USD/GBP", 0.18185865481257843, "", "UVXY", 0.603808639108233, "", "Nasdaq", "NQFUT", 0, "", "BBD", -1.4641288433382087, "", "PETR4", -2.990742938523612, "", "INDPRO", -351924], ["", "USD/CAD", 0.007168201856547574, "", "BPT", 0, "", "Russel", "IWM", 1.1936695278969964, "", "VALE", 0.4752206381534424, "", "AXIA3", -0.2256911792364067, "", "WDOU26", -12325], ["", "USD/SEK", 0, "", "BGC", 0, "", "GOLD", "GOLD", 3.760114231318433, "", "ABEV", -0.4966887417218584, "", "PETR3", -3.424223208623964, "", "DOLU26", 9800], ["", "USD/CHF", 0.01683126655279745, "", "DSST", -1.1218247078834433e-14, "", "IRON&STELL", "DJUSST", -1.1218247078834433e-14, "", "PBR", -2.6443604964921668, "", "BBDC4", -2.203389830508458, "", "DOLPRO", -2525], ["", "EMERGENTES", "", "", "", "", "", "", "", "", "", "GGB", -1.9821605550049484, "", "ITSA4", -2.220577350111021, "", "", ""], ["", "USD/CNH", -0.028918664402605588, "", 1, "DI1F28", "", "", "ICON", -0.7402861551409778, "", "JBS", 4.055535257581305, "", "SBSP3", -1.8254837531945967, "", "", "CURVA DE JUROS"], ["", "USD/RUB", -0.8114620045941509, "", 2, "DI1F29", "", "", "IFIX", 0.2936084316682215, "", "SUZ", -0.4237288135593238, "", "B3SA3", -2.669270833333334, "", "", "DI1F27"], ["", "USD/AUD", 0.17010264107848383, "", 3, "DI1F27", "", "", "IFNC", -2.4187200045231045, "", "XPBR31", -2.4049741905208952, "", "WEGE3", -0.5785123966942172, "", "", "DI1F28"], ["", "USD/MXN", 1.4212395216045275, "", 4, "DI1F31", "", "", "IMAT", -1.4633816248744942, "", "BSBR", 0.34572169403629344, "", "", -1.927687358847847, "", "", "DI1F29"], ["", "USD/BRL", 0, "", 5, "DI1F30", "", "", "IMOB", -0.364252569564333, "", "", -0.6435588515698157, "", "", "", "", "", "DI1F30"], ["", "", "", "", "Peso", 0.27373244281080766, "", "", "INDX", -0.5995349030133614, "", "", "", "", "", "", "", "", "DI1F31"], ["", "BRASIL", "", "", "Fecha Ant.", 13.865000000000002, "", "", "", "", "", "", "", "", "", "", "", "", "DI1F32"], ["", "IBOV", -1.7277145478835347, "", "", "", "", "", "", "", "", "", "DELTAS", "", "STOP", "", "", "", "DI1F33"], ["", "BOVA11", -1.5519646593815484, "", "", "", "", "", "", "", "", "", 5, "", "", "", "", "", "DI1F34"], ["", "WINQ26", -1.7943978387601307, "", "PREENCHER MANUAL", "", "", "", "", "", "", "", "", "", "", "", "", "", "DI1F35"], ["", "INDQ26", -1.783428620189436, "", "PTAX Fut. P1", 5117.5, "", "", "Fluxo vendedor", "", "", "NIVEIS DE ATENÇÃO", "", "", "AJUSTE", "PREÇO", "", "", "DI1F36"], ["", "WDOU26", -0.6223259432127577, "", "PTAX Fut. P2", 5122.6, "", "", "Acelerando", "", "", "NIVEL 1", 172992.2, "", 2864.7999999999884, -322.20000000001164, "", "", "DI1F37"], ["", "DOLU26", -0.583544057576347, "", "PTAX Fut. P3", 5120.5, "", "", "Volatilidade Alta", "", "", "NIVEL 2", 173314.4, "", 2542.600000000006, -173310.97, "", "", "DI1F38"], ["", "", "", "", "PTAX Fut. P4", 5117.1, "", "", "Fluxo Vendedor", "", "", "NIVEL 3 ", 173636.6, "", 2220.399999999994, -173553.41, "", "", "DI1F39"], ["", "DOLU26", "", "", "", 5119.425, "", "", "Neutro", "", "", "NIVEL 1", 172691.61261003205, "", 3165.3873899679456, -21.612610032054363, "", "", ""], ["", "CUPOM CAMBIAL", "", "", "", "", "", "", "Sem Aceleração", "", "", "NIVEL 2", 172713.2252200641, "", 3143.7747799358913, -43.225220064108726, "", "", ""], ["", "DDIU26", "JUROS", "", "", "", "", "", "MANTER", "", "", "NIVEL 3 ", 172734.83783009613, "", 3122.162169903866, -64.83783009613398, "", "", ""], ["", "01/09/2026", "DI1U26", "", "", "", "", "", "MANTER", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]]};
+        let allData = {};
+        let currentSheet = 'Operacional';
+
+        function loadExcel() {
+            allData = dashboardSource;
+            renderSheetTabs();
+            renderDashboard();
+        }
+
+        function renderSheetTabs() {
+            const container = document.getElementById('sheetTabs');
+            container.innerHTML = '';
+            
+            allData.sheets.forEach(sheet => {
+                const tab = document.createElement('button');
+                tab.className = `sheet-tab ${sheet === currentSheet ? 'active' : ''}`;
+                tab.textContent = sheet;
+                tab.onclick = () => {
+                    currentSheet = sheet;
+                    renderSheetTabs();
+                    renderDashboard();
+                };
+                container.appendChild(tab);
+            });
+        }
+
+        function renderDashboard() {
+            const content = document.getElementById('dashboardContent');
+            
+            if (!allData.data || allData.data.length === 0) {
+                content.innerHTML = '<div class="no-data">Nenhum dado disponível</div>';
+                return;
+            }
+
+            const sheetIndex = allData.sheets.indexOf(currentSheet);
+            const data = allData.data;
+            
+            let html = `<div class="dashboard-grid">`;
+            
+            // Card 1: Resumo de Dados
+            html += createSummaryCard(data);
+            
+            // Card 2: Dados Numéricos
+            html += createNumericCard(data);
+            
+            // Card 3: Dados Categóricos
+            html += createCategoricalCard(data);
+            
+            html += `</div>`;
+            
+            // Tabela completa
+            html += createDataTable(data);
+            
+            content.innerHTML = html;
+        }
+
+        function createSummaryCard(data) {
+            const headers = data[0] || [];
+            const dataRows = data.slice(1).filter(row => row.some(cell => cell !== ''));
+            
+            return `
+                <div class="card">
+                    <div class="card-title">📈 Resumo dos Dados</div>
+                    <div class="metrics-grid">
+                        <div class="metric">
+                            <div class="metric-label">Total de Colunas</div>
+                            <div class="metric-value">${headers.length}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Total de Linhas</div>
+                            <div class="metric-value">${dataRows.length}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Células Preenchidas</div>
+                            <div class="metric-value">${countFilledCells(data)}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Taxa de Preenchimento</div>
+                            <div class="metric-value">${calculateDensity(data)}%</div>
+                        </div>
+                    </div>
+                    <div class="stats-row" style="margin-top: 15px;">
+                        <div class="stat-box">
+                            <div class="stat-box-label">Aba Ativa</div>
+                            <div class="stat-box-value">${currentSheet}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createNumericCard(data) {
+            const numbers = extractNumbers(data);
+            
+            if (numbers.length === 0) {
+                return `<div class="card"><div class="no-data">Sem dados numéricos</div></div>`;
+            }
+            
+            const min = Math.min(...numbers);
+            const max = Math.max(...numbers);
+            const avg = (numbers.reduce((a, b) => a + b, 0) / numbers.length).toFixed(2);
+            
+            return `
+                <div class="card">
+                    <div class="card-title">🔢 Análise Numérica</div>
+                    <div class="metrics-grid">
+                        <div class="metric">
+                            <div class="metric-label">Valor Máximo</div>
+                            <div class="metric-value positive">${max.toFixed(2)}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Valor Mínimo</div>
+                            <div class="metric-value negative">${min.toFixed(2)}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Média</div>
+                            <div class="metric-value">${avg}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Total de Números</div>
+                            <div class="metric-value">${numbers.length}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createCategoricalCard(data) {
+            const categories = extractUniqueCategories(data);
+            
+            return `
+                <div class="card">
+                    <div class="card-title">🏷️ Dados Categóricos</div>
+                    <div class="metrics-grid">
+                        <div class="metric">
+                            <div class="metric-label">Categorias Únicas</div>
+                            <div class="metric-value">${categories.size}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Densidade</div>
+                            <div class="metric-value">${calculateDensity(data)}%</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Linhas Vazias</div>
+                            <div class="metric-value">${data.slice(1).filter(row => row.every(cell => !cell)).length}</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-label">Tipo de Dados</div>
+                            <div class="metric-value">Misto</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function createDataTable(data) {
+            if (data.length === 0) return '';
+            
+            const headers = data[0] || [];
+            let table = `
+                <div class="card">
+                    <div class="card-title">📋 Dados Completos</div>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+            `;
+            
+            headers.forEach(header => {
+                table += `<th>${header || '(vazio)'}</th>`;
+            });
+            
+            table += `
+                                </tr>
+                            </thead>
+                            <tbody>
+            `;
+            
+            const maxRows = Math.min(100, data.length - 1);
+            for (let i = 1; i <= maxRows; i++) {
+                const row = data[i] || [];
+                table += '<tr>';
+                
+                row.forEach(cell => {
+                    const value = cell || '';
+                    const isNumber = !isNaN(value) && value !== '';
+                    const isPositive = isNumber && parseFloat(value) > 0;
+                    const isNegative = isNumber && parseFloat(value) < 0;
+                    
+                    let className = '';
+                    if (isPositive) className = 'value-positive';
+                    else if (isNegative) className = 'value-negative';
+                    
+                    table += `<td class="${className}">${value}</td>`;
+                });
+                
+                table += '</tr>';
+            }
+            
+            if (data.length > maxRows + 1) {
+                table += `<tr><td colspan="${headers.length}" style="text-align: center; color: #999;">
+                    ... ${data.length - maxRows - 1} linhas adicionais não exibidas
+                </td></tr>`;
+            }
+            
+            table += `
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+            
+            return table;
+        }
+
+        function countFilledCells(data) {
+            return data.reduce((count, row) => {
+                return count + row.filter(cell => cell !== '' && cell !== null).length;
+            }, 0);
+        }
+
+        function calculateDensity(data) {
+            if (data.length === 0) return 0;
+            const totalCells = data.length * data[0].length;
+            const filledCells = countFilledCells(data);
+            return Math.round((filledCells / totalCells) * 100);
+        }
+
+        function extractNumbers(data) {
+            const numbers = [];
+            data.forEach(row => {
+                row.forEach(cell => {
+                    const num = parseFloat(cell);
+                    if (!isNaN(num) && cell !== '') {
+                        numbers.push(num);
+                    }
+                });
+            });
+            return numbers;
+        }
+
+        function extractUniqueCategories(data) {
+            const categories = new Set();
+            data.forEach(row => {
+                row.forEach(cell => {
+                    if (cell && typeof cell === 'string' && isNaN(parseFloat(cell))) {
+                        categories.add(cell);
+                    }
+                });
+            });
+            return categories;
+        }
+
+        function refreshData() {
+            loadExcel();
+            alert('Dados atualizados!');
+        }
+
+        function exportToPDF() {
+            alert('Funcionalidade de exportação PDF será adicionada em breve!');
+        }
+
+        // Carregar dados automaticamente ao abrir a página
+        window.addEventListener('load', loadExcel);
+    </script>
+</body>
+</html>
