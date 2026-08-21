@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-08-21
+
+### Changed
+
+**Em-dash removal is now role-aware (SKILL.md, references/structures.md)**
+- The checklist item and the structures table pointed at "remove it, use commas or periods". Replacing a clause-joining em-dash with a comma produces a comma splice, and it lands disproportionately on prominent sentences because that is where dashes get used for emphasis.
+- New "Removing Em-Dashes" section documents the three roles and their correct replacements: parenthetical to comma or parens, clause-join to period or semicolon, table-cell or list placeholder to hyphen.
+- Notes that only U+2014 is the AI tell. U+2013 (en-dash) belongs in numeric and date ranges and should be preserved, so a sweep should target the em-dash character specifically.
+- Adds the reminder that a bulk sweep needs a second read-through, since a mechanical pass cannot distinguish the three roles.
+
 ## 2026-01-13
 
 ### Added

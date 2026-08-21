@@ -122,9 +122,34 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 | Three-item lists | Use two items or one |
 | Questions answered immediately | Let questions breathe or cut them |
 | Every paragraph ends punchily | Vary endings |
-| Em-dashes | Remove. Use commas or periods. No em dashes at all. |
+| Em-dashes | Remove. Replacement depends on role, see below. |
 | Staccato fragmentation | Don't stack short punchy sentences |
 | "Not always. Not perfectly." | Hedging disguised as reassurance |
+
+## Removing Em-Dashes
+
+Removing every em-dash with one find-and-replace introduces grammatical
+errors. The replacement depends on what the dash was doing.
+
+| Role | Before | After |
+|------|--------|-------|
+| Parenthetical / appositive | "Her first novel — a slim thing — sold out" | "Her first novel, a slim thing, sold out" |
+| Joining two independent clauses | "The rain stopped — the match resumed" | "The rain stopped. The match resumed." |
+| Table-cell or list placeholder | `\| — \|` | `\| - \|` |
+
+The clause-join row is the one that bites. A comma there gives you "The
+rain stopped, the match resumed", which is a splice. It lands
+disproportionately on prominent sentences, because that is where dashes get
+used for emphasis. Read every replacement back as a sentence: if both
+halves stand alone, a comma is wrong.
+
+**Sweep the em-dash only.** U+2014 (—) is the AI tell. U+2013 (–) is an
+en-dash and belongs in numeric and date ranges (pages 12–18, 1998–2004);
+removing it damages correct writing. Target the em-dash character
+specifically rather than "any long dash".
+
+**After a bulk sweep, re-read every changed line.** A mechanical pass
+cannot tell the three roles apart, so the second pass is not optional.
 
 ## Word Patterns
 

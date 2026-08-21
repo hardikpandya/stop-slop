@@ -40,7 +40,7 @@ Before delivering prose:
 - Any "not X, it's Y" contrasts? State Y directly.
 - Three consecutive sentences match length? Break one.
 - Paragraph ends with punchy one-liner? Vary it.
-- Em-dash anywhere? Remove it.
+- Em-dash anywhere? Remove it, but pick the replacement by its role: parenthetical to commas or parens, clause-join to a period or semicolon (a comma here is a splice), placeholder to a hyphen. See [references/structures.md](references/structures.md).
 - Vague declarative ("The implications are significant")? Name the specific implication.
 - Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
 - Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
