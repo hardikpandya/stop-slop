@@ -1,59 +1,93 @@
-# Before/After Examples
+# Before and After
 
-## Example 1: Throat-Clearing + Binary Contrast
+## Empty significance
 
-**Before:**
-> "Here's the thing: building products is hard. Not because the technology is complex. Because people are complex. Let that sink in."
+**Before**
 
-**After:**
-> "Building products is hard. Technology is manageable. People aren't."
+> In today's rapidly evolving landscape, this pivotal change underscores the crucial role of trust.
 
-**Changes:** Removed opener, binary contrast structure, and emphasis crutch. Direct statements.
+**After**
 
----
+> The policy lets reviewers trace each claim to a source and see who approved the change.
 
-## Example 2: Filler + Unnecessary Reassurance
+The revision replaces praise with the consequence that makes trust relevant.
 
-**Before:**
-> "It turns out that most teams struggle with alignment. The uncomfortable truth is that nobody wants to admit they're confused. And that's okay."
+## Repeated contrast
 
-**After:**
-> "Teams struggle with alignment. Nobody admits confusion."
+**Before**
 
-**Changes:** Cut hedging ("most"), removed throat-clearing phrases, deleted permission-granting ending.
+> This is not just a reporting problem. It is a governance problem. The answer is not more dashboards, but better ownership.
 
----
+**After**
 
-## Example 3: Business Jargon Stack
+> Each metric needs an owner who can correct the source data.
 
-**Before:**
-> "In today's fast-paced landscape, we need to lean into discomfort and navigate uncertainty with clarity. This matters because your competition isn't waiting."
+The positive claim carries the argument. The two staged reversals added no evidence.
 
-**After:**
-> "Move faster. Your competition is."
+## Rule-of-three cluster
 
-**Changes:** Eliminated jargon entirely. Core message in six words.
+**Before**
 
----
+> The platform is fast, flexible, and future-ready. It offers robust workflows, seamless collaboration, and powerful insights.
 
-## Example 4: Dramatic Fragmentation
+**After**
 
-**Before:**
-> "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
+> Two reviewers edited the same release note without overwriting each other, and the audit log recorded both approvals.
 
-**After:**
-> "Speed, quality, cost—pick two."
+The problem was not the number three. The lists substituted adjectives for an example.
 
-**Changes:** Single sentence. No performative emphasis.
+## Repeated summary
 
----
+**Before**
 
-## Example 5: Rhetorical Setup
+> This section explains the rollout plan. The team will release to 5% of accounts on Monday and review errors after four hours. In summary, the rollout starts with 5% of accounts and includes an error review.
 
-**Before:**
-> "What if I told you that the best teams don't optimize for productivity? Here's what I mean: they optimize for learning. Think about it."
+**After**
 
-**After:**
-> "The best teams optimize for learning, not productivity."
+> The team will release to 5% of accounts on Monday and review errors after four hours.
 
-**Changes:** Direct claim. No rhetorical scaffolding.
+The middle sentence already contained the plan.
+
+## Citation integrity
+
+**Before**
+
+> A 2024 Stanford study found that 87% of readers prefer AI-assisted prose.
+
+**After when the citation cannot be verified**
+
+> [Source needed: the cited Stanford study and 87% figure could not be verified.]
+
+Do not invent a replacement citation or soften a fabricated number into fact.
+
+## Preserve legitimate passive voice
+
+**Original**
+
+> Samples were stored at −80 °C before sequencing.
+
+**Keep it.** The method matters; the person loading the freezer does not. Forced active voice would add noise.
+
+## Preserve legitimate adverbs and punctuation
+
+**Original**
+
+> The service failed intermittently after 02:10; requests from the older client were retried automatically.
+
+**Keep it if accurate.** `Intermittently` and `automatically` distinguish the failure mode and retry behavior. The semicolon connects two related observations.
+
+## Voice shift
+
+**Writer's baseline**
+
+> I missed the train because I stopped for coffee. Fair trade.
+
+**Draft insertion**
+
+> The incident serves as a poignant reminder that life's intricate tapestry is shaped by seemingly minor choices.
+
+**Revision**
+
+> I missed the train. The coffee was still worth it.
+
+The revision follows the writer's existing compression and humor instead of adding generic literary language.
