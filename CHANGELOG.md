@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-08-22
+
+### Changed
+
+- Replaced blanket bans with strong, clustered, and weak signal levels.
+- Added genre and voice preservation, citation verification, and provenance boundaries.
+- Removed rules banning all adverbs, passive voice, em dashes, Wh- openings, and three-item lists.
+- Added a ten-source research review covering stylometry, human heuristics, detector failures, paraphrase attacks, and bias against non-native writers.
+- Replaced the authenticity score with specificity, evidence, voice fidelity, structure, cadence, economy, and genre-fit checks.
+
 ## 2026-01-13
 
 ### Added

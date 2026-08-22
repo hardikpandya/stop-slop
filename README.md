@@ -1,62 +1,29 @@
 # Stop Slop
 
-A skill for removing AI tells from prose.
+A prose-editing skill that removes formulaic AI-writing residue without flattening the author's voice.
 
-<img width="3840" height="2160" alt="G-Yg4RVbIAAhVxW" src="https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf" />
+Version 2 replaces blanket bans with a research-backed review method:
 
-## What this is
+- fix unsupported claims, generic analysis, repeated summaries, and citation problems first
+- treat stock words and formulaic structures as clusters, not proof
+- preserve genre, dialect, non-native English, and useful punctuation
+- separate prose quality from authorship and provenance
 
-AI writing has patterns. Predictable phrases, structures, rhythms. This skill teaches Claude (or any LLM) to catch and remove them.
+## Files
 
-## Skill Structure
-
-```
+```text
 stop-slop/
-├── SKILL.md              # Core instructions
-├── references/
-│   ├── phrases.md        # Phrases to remove
-│   ├── structures.md     # Structural patterns to avoid
-│   └── examples.md       # Before/after transformations
-├── README.md
-└── LICENSE
+├── SKILL.md
+└── references/
+    ├── patterns.md
+    ├── phrases.md
+    ├── structures.md
+    ├── examples.md
+    └── research.md
 ```
 
-## Quick start
+The skill supports rewriting, editorial audits, and cautious review of possible AI-writing patterns. It does not claim to determine who wrote a passage.
 
-**Claude Code:** Add this folder as a skill.
+## Author and license
 
-**Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
-
-**Custom instructions:** Copy core rules from `SKILL.md`.
-
-**API calls:** Include `SKILL.md` in your system prompt. Reference files load on demand.
-
-## What it catches
-
-**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `references/phrases.md`.
-
-**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency, narrator-from-a-distance voice, passive voice. See `references/structures.md`.
-
-**Sentence-level rules** - No Wh- sentence starters, no em dashes, no staccato fragmentation, no lazy extremes, active voice required.
-
-## Scoring
-
-Rate 1-10 on each dimension:
-
-| Dimension | Question |
-|-----------|----------|
-| Directness | Statements or announcements? |
-| Rhythm | Varied or metronomic? |
-| Trust | Respects reader intelligence? |
-| Authenticity | Sounds human? |
-| Density | Anything cuttable? |
-
-Below 35/50: revise.
-
-## Author
-
-[Hardik Pandya](https://hvpandya.com)
-
-## License
-
-MIT. Use freely, share widely.
+Original skill by [Hardik Pandya](https://hvpandya.com). MIT licensed.
