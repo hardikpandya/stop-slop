@@ -12,18 +12,35 @@ AI writing has patterns. Predictable phrases, structures, rhythms. This skill te
 
 ```
 stop-slop/
-├── SKILL.md              # Core instructions
-├── references/
-│   ├── phrases.md        # Phrases to remove
-│   ├── structures.md     # Structural patterns to avoid
-│   └── examples.md       # Before/after transformations
+├── skills/
+│   └── stop-slop/
+│       ├── SKILL.md          # Core instructions
+│       └── references/
+│           ├── phrases.md    # Phrases to remove
+│           ├── structures.md # Structural patterns to avoid
+│           └── examples.md   # Before/after transformations
 ├── README.md
 └── LICENSE
 ```
 
+`skills/stop-slop/` is the [Agent Skills](https://agentskills.io/specification) convention. Installers look there.
+
 ## Quick start
 
-**Claude Code:** Add this folder as a skill.
+**Claude Code, one command:**
+
+```bash
+gh skill install hardikpandya/stop-slop stop-slop --agent claude-code --scope user
+```
+
+`--scope user` puts it in `~/.claude/skills/`, available in every project. Drop it to install into the current repo only. Other agents work the same way: `--agent cursor`, `--agent codex`, `--agent gemini-cli`, and [more](https://cli.github.com/manual/gh_skill_install). Upgrade later with `gh skill update`.
+
+**Claude Code, by hand:** clone the repo anywhere and symlink the skill folder, which keeps `git pull` working as the upgrade path.
+
+```bash
+git clone https://github.com/hardikpandya/stop-slop.git ~/src/stop-slop
+ln -s ~/src/stop-slop/skills/stop-slop ~/.claude/skills/stop-slop
+```
 
 **Claude Projects:** Upload `SKILL.md` and reference files to project knowledge.
 
@@ -33,9 +50,9 @@ stop-slop/
 
 ## What it catches
 
-**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `references/phrases.md`.
+**Banned phrases** - Throat-clearing openers, emphasis crutches, business jargon, all adverbs, vague declaratives, meta-commentary. See `skills/stop-slop/references/phrases.md`.
 
-**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency, narrator-from-a-distance voice, passive voice. See `references/structures.md`.
+**Structural clichés** - Binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency, narrator-from-a-distance voice, passive voice. See `skills/stop-slop/references/structures.md`.
 
 **Sentence-level rules** - No Wh- sentence starters, no em dashes, no staccato fragmentation, no lazy extremes, active voice required.
 

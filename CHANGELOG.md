@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-08-30
+
+### Changed
+
+- Moved the skill to `skills/stop-slop/`, the Agent Skills convention, so `gh skill install hardikpandya/stop-slop stop-slop` finds it. If you cloned this repo straight into `~/.claude/skills/stop-slop/`, replace it with a symlink to `skills/stop-slop/` (see the README).
+
 ## 2026-01-13
 
 ### Added
