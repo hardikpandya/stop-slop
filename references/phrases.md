@@ -50,11 +50,59 @@ Replace with plain language.
 | Circle back | Return to, revisit |
 | On the same page | Aligned, agreed |
 
+## Faux-Insight Setups
+
+Phrases that announce a secret instead of making a claim. Cut the setup. State the content.
+
+- "What nobody tells you"
+- "What they don't tell you"
+- "The part everyone misses"
+- "Here's what most people miss"
+- "The missing piece is"
+- "Nobody talks about"
+
+## Importance Puffery
+
+Announcing significance instead of naming the change.
+
+- "marks a pivotal moment"
+- "stands as a testament"
+- "underscores the importance"
+- "a shining example of"
+- "speaks volumes"
+- "a powerful reminder"
+- "represents a significant milestone"
+
+## Weasel Attribution
+
+Borrowed authority with no named source. Name the source or cut the claim. Never invent a source to fill the gap.
+
+- "experts agree"
+- "studies show"
+- "research suggests"
+- "scientists say"
+- "observers note"
+- "industry leaders believe"
+- "data indicates" (with no named data)
+
+## Interpretive Metadiscourse
+
+Wrappers that tell the reader how to read the next sentence. Delete the wrapper. Keep the sentence.
+
+- "the key point is"
+- "this distinction matters"
+- "what this means is"
+- "the takeaway is"
+- "it's important to understand"
+- "this is a crucial distinction"
+
 ## Adverbs
 
-Kill all adverbs. No -ly words. No softeners, no intensifiers, no hedges.
+Cut empty adverbs. -ly words, softeners, intensifiers, and hedges that add no meaning.
 
-Specific offenders:
+Keep an adverb when it carries real emphasis, uncertainty, or spoken rhythm. "I almost shipped it" is not the same as "I shipped it." "She said it quietly" is not empty.
+
+Empty offenders:
 
 - "really"
 - "just"
