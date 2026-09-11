@@ -1,5 +1,7 @@
 # Before/After Examples
 
+Edits should be the smallest change that removes the slop. Keep the writer's voice. Do not flatten every draft into short punchy slogans.
+
 ## Example 1: Throat-Clearing + Binary Contrast
 
 **Before:**
@@ -57,3 +59,63 @@
 > "The best teams optimize for learning, not productivity."
 
 **Changes:** Direct claim. No rhetorical scaffolding.
+
+---
+
+## Example 6: Faux-Insight + Colon-Reveal
+
+**Before:**
+> "What nobody tells you is that the queue is the product. The best part: it learns."
+
+**After:**
+> "The queue is the product. It learns."
+
+**Changes:** Cut the secret-announcing setup and the colon punchline. Left the two claims.
+
+---
+
+## Example 7: Importance Puffery + -ing Analysis
+
+**Before:**
+> "Friday's deploy marks a pivotal moment for the company, highlighting the team's commitment to reliability."
+
+**After:**
+> "Friday's deploy went out."
+
+**Changes:** Cut the prestige language and the caption clause. Left the act. Did not invent a metric to replace the puffery.
+
+---
+
+## Example 8: Weasel Attribution
+
+**Before:**
+> "Studies show that remote teams ship faster. Experts agree the office was the bottleneck."
+
+**After:**
+> "Remote teams ship faster here. The office was the bottleneck."
+
+**Changes:** Dropped the sourceless authorities. Left the claims as the writer's. Did not invent a study to replace "studies show."
+
+---
+
+## Example 9: Synonym Cycling + Fake-Profound Kicker
+
+**Before:**
+> "The scheduler retries failed jobs. Then the orchestrator backs off. Finally the coordinator gives up. And that changes everything."
+
+**After:**
+> "The scheduler retries failed jobs, backs off, then gives up."
+
+**Changes:** One name for one process. Deleted the oracle last line.
+
+---
+
+## Example 10: Metadiscourse + Voice Kept
+
+**Before:**
+> "Here's the thing: I keep rewriting the same paragraph, which is embarrassing, and I'm not sure the third version is better. The key point is that shipping the ugly draft beats polishing it into mush."
+
+**After:**
+> "I keep rewriting the same paragraph, which is embarrassing, and I'm not sure the third version is better. Shipping the ugly draft beats polishing it into mush."
+
+**Changes:** Cut the opener and the "key point is" wrapper. Kept the doubt, the aside, and the longer cadence. Did not squash this into "Ship the draft."
