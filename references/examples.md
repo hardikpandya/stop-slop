@@ -18,9 +18,9 @@
 > "It turns out that most teams struggle with alignment. The uncomfortable truth is that nobody wants to admit they're confused. And that's okay."
 
 **After:**
-> "Teams struggle with alignment. Nobody admits confusion."
+> "Teams struggle with alignment. Few people admit they're confused."
 
-**Changes:** Cut hedging ("most"), removed throat-clearing phrases, deleted permission-granting ending.
+**Changes:** Cut hedging ("most"), removed throat-clearing phrases, deleted permission-granting ending, and swapped the lazy extreme ("nobody") for a specific claim.
 
 ---
 
@@ -42,9 +42,9 @@
 > "Speed. Quality. Cost. You can only pick two. That's it. That's the tradeoff."
 
 **After:**
-> "Speed, quality, cost—pick two."
+> "You can pick two of speed, quality, and cost."
 
-**Changes:** Single sentence. No performative emphasis.
+**Changes:** Single sentence, no performative fragmentation, no em dash (the original fix used an em dash, which breaks the skill's own no-em-dash rule).
 
 ---
 
