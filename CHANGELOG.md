@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-27
+
+### Added
+
+**Structures (references/structures.md)**
+- Document structure: payoff-promising titles, opening roadmaps, restated closings, old-vs-new frames, stakes escalation, explainer voice, numbered non-sequences, template sections (source: SlopShape, arXiv 2609.15369)
+
+**SKILL.md**
+- Core rule 9: fix the shape first; quick check for roadmaps and recaps
+
 ## 2026-01-13
 
 ### Added
