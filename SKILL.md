@@ -28,6 +28,8 @@ Eliminate predictable AI writing patterns from prose.
 
 8. **Cut quotables.** If it sounds like a pull-quote, rewrite it.
 
+9. **Fix the shape first.** Rewording leaves a draft's structure intact. No payoff promised in the title, no opening roadmap, no closing that restates the thesis, no old-vs-new frame, no escalating stakes, numbered lists only for real sequences. See [references/structures.md](references/structures.md#document-structure).
+
 ## Quick Checks
 
 Before delivering prose:
@@ -44,6 +46,7 @@ Before delivering prose:
 - Vague declarative ("The implications are significant")? Name the specific implication.
 - Narrator-from-a-distance ("Nobody designed this")? Put the reader in the scene.
 - Meta-joiners ("The rest of this essay...")? Delete. Let the essay move.
+- Opening roadmap ("In this post, we'll cover") or closing recap ("In short")? Cut the paragraph, not just the phrase.
 
 ## Scoring
 

@@ -132,3 +132,21 @@ Wh- openers become a crutch. "What makes this hard is..." becomes "The constrain
 |---------|---------|
 | Lazy extremes (every, always, never, everyone, everybody, nobody) | False authority. Use specifics instead of sweeping claims. |
 | All adverbs (-ly words, "really," "just," "literally," "genuinely," "honestly," "simply," "actually") | Empty emphasis. See phrases.md for full list. |
+
+## Document Structure
+
+Rewording a draft leaves its shape intact. In SlopShape (arXiv 2609.15369), AI-written company blog posts were identified from structure alone at 98.0 macro-F1, and still at 98.1 after each post was reworded by its own model. Fix these while drafting, or as the first edit pass, before the word-level rules.
+
+| Pattern | Problem |
+|---------|---------|
+| Title promises the payoff ("How to Cut Onboarding Time in Half") | Sells the result before showing anything. Name the subject. |
+| Opening roadmap ("In this post, we'll cover X, Y and Z") | The sections will say it. Open with the first substantive thing. |
+| Thesis stated before the first section, then repeated by it | Same content twice. |
+| Closing section restates the thesis ("In short, ...", "Key takeaways") | End on the last point or a concrete next step. |
+| Old way vs new way ("Traditional approaches fall short") | Names no predecessor. Name the real one and the measured difference, or drop the frame. |
+| Stakes escalation ("...your team will..., your customers will..., your business will...") | Inflated consequences. State the real cost once. |
+| Editorial explainer voice addressing "businesses" or "teams" | Write from where the author stands: what we built, saw, decided. |
+| Numbered list of options or reasons | Numbers mean order. Keep them for real sequences. |
+| Template sections (Introduction, Why it matters, Conclusion) | Every section must exist because the material needs it. |
+
+**Instead:** Build the shape from what this piece has that another piece on the same topic would not: a failure, a number, a person, an odd order of events. Don't invert the list into a new template ("always open with an anecdote"). Never invent quotes, customers or numbers to fill a gap.
