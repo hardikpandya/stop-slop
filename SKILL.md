@@ -16,6 +16,8 @@ Eliminate predictable AI writing patterns from prose.
 
 2. **Break formulaic structures.** Avoid binary contrasts, negative listings, dramatic fragmentation, rhetorical setups, false agency. See [references/structures.md](references/structures.md).
 
+   *Note for German speakers (Austria):* See [references/phrases_de_at.md](references/phrases_de_at.md) for Austrian-specific patterns like "im Prinzip," "halt," "irgendwie," and typical Austrian understatement phrases.
+
 3. **Use active voice.** Every sentence needs a human subject doing something. No passive constructions. No inanimate objects performing human actions ("the complaint becomes a fix").
 
 4. **Be specific.** No vague declaratives ("The reasons are structural"). Name the specific thing. No lazy extremes ("every," "always," "never") doing vague work.
